@@ -555,7 +555,34 @@ footer li {
     .mobile-menu {
         display: block;
     }
+.mobile-menu {
+    display: block;
+    cursor: pointer;
+}
 
+.mobile-menu-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    background: #ffffff;
+    width: 230px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.mobile-menu-dropdown a {
+    display: block;
+    padding: 15px 20px;
+    color: #0b2d4d;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.mobile-menu-dropdown a:hover {
+    background: #f2f5f8;
+}
     .cards {
         grid-template-columns: repeat(2,1fr);
     }
