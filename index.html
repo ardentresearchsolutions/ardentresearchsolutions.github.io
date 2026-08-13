@@ -670,7 +670,9 @@ footer li {
             <a href="#news">News & Events</a>
         </nav>
 
-        <div class="mobile-menu">☰</div>
+        <div class="mobile-menu" onclick="toggleMobileMenu()">
+    ☰
+</div>
 
     </div>
 </header>
@@ -1111,6 +1113,29 @@ footer li {
     </div>
 
 </footer>
+    <div id="mobileDropdown" class="mobile-dropdown">
 
+    <a href="#about">About Us</a>
+
+    <a href="#research">Research</a>
+
+    <a href="#publications">Publications</a>
+
+    <a href="#advisory">Advisory</a>
+
+    <a href="#news">News & Events</a>
+
+</div>
+<script>
+function toggleMobileMenu() {
+    const menu = document.getElementById("mobileDropdown");
+
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+</script>
 </body>
 </html>
