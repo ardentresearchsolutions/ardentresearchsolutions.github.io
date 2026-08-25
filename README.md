@@ -1,2 +1,2 @@
-# irspakistan.github.io
+# ardentresearchsolutions.github.io
 Official website of Innovative Research Solutions (Pvt.) Ltd.
