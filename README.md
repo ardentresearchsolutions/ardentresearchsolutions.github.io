@@ -1,2 +1,2 @@
 # ardentresearchsolutions.github.io
-Official website of Innovative Research Solutions (Pvt.) Ltd.
+Official website of Ardent Research Solutions (Pvt.) Ltd.
