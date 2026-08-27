@@ -499,19 +499,12 @@ footer li {
    DIRECTOR PHOTOS & BIOGRAPHIES
 ========================================================= */
 
-/* Founder photo */
-#about .founder-photo {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto 35px;
-}
-
-/* Director photo */
+/* Founder and Director photos — identical dimensions */
+#about .founder-photo,
 #about .director-photo {
-    width: 180px;
-    height: 220px;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
     object-fit: cover;
     object-position: center top;
     display: block;
@@ -538,15 +531,11 @@ footer li {
 
 /* Mobile */
 @media (max-width: 768px) {
-    #about .founder-photo {
-        max-width: 300px;
-        width: 85%;
-        margin: 0 auto 25px;
-    }
-
+    #about .founder-photo,
     #about .director-photo {
-        width: 180px;
-        height: 220px;
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
         margin: 0 auto 25px;
     }
 
