@@ -5,10 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ardent Research Solutions (Pvt.) Ltd. | ARS Pakistan</title>
+<title>About Us | Ardent Research Solutions (Pvt.) Ltd.</title>
 
 <meta name="description"
-content="Ardent Research Solutions (Pvt.) Ltd. — Independent research, policy analysis and advisory services for a better Pakistan.">
+content="About Ardent Research Solutions (Pvt.) Ltd. — an independent, Pakistan-focused research and policy advisory organisation.">
 
 <style>
 
@@ -184,102 +184,26 @@ header {
 
 
 /* =========================================================
-   HERO
+   PAGE HEADING (About page hero replacement)
 ========================================================= */
 
-.hero {
-    min-height: 590px;
-    position: relative;
+.page-heading {
+    background: #06264a;
     color: white;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(3,28,55,.96) 0%,
-            rgba(3,31,59,.84) 45%,
-            rgba(3,31,59,.58) 100%
-        ),
-        linear-gradient(
-            135deg,
-            #0a3157 0%,
-            #071d37 55%,
-            #123b5e 100%
-        );
+    padding: 55px 0;
+    text-align: center;
 }
 
-.hero:after {
-    content: "";
-    position: absolute;
-    bottom: -100px;
-    right: -80px;
-    width: 600px;
-    height: 300px;
-    background: rgba(255,255,255,.04);
-    transform: rotate(-8deg);
-    border-radius: 50%;
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-    max-width: 720px;
-}
-
-.hero h1 {
+.page-heading h1 {
     font-family: Georgia, serif;
-    font-size: clamp(42px, 5vw, 68px);
-    line-height: 1.12;
+    font-size: 42px;
     font-weight: 500;
-    margin-bottom: 25px;
 }
 
-.hero h1 span {
-    color: #f1f5f9;
-}
-
-.hero p {
-    max-width: 680px;
-    font-size: 17px;
-    line-height: 1.8;
-    color: #e7eef6;
-    margin-bottom: 35px;
-}
-
-
-/* =========================================================
-   BUTTONS
-========================================================= */
-
-.btn {
-    display: inline-block;
-    padding: 13px 25px;
-    border-radius: 3px;
-    font-size: 14px;
-    font-weight: bold;
-    margin-right: 10px;
-    transition: .2s;
-}
-
-.btn-primary {
-    background: #0874d1;
-    color: white;
-}
-
-.btn-primary:hover {
-    background: #075da8;
-}
-
-.btn-outline {
-    border: 1px solid rgba(255,255,255,.7);
-    color: white;
-}
-
-.btn-outline:hover {
-    background: white;
-    color: #092b52;
+.page-heading p {
+    color: #cddbea;
+    margin-top: 10px;
+    font-size: 15px;
 }
 
 
@@ -316,103 +240,6 @@ section {
     max-width: 680px;
     margin: 12px auto 0;
     color: #657383;
-}
-
-
-/* =========================================================
-   PUBLICATIONS
-========================================================= */
-
-.publications {
-    background: #f7f9fb;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 18px;
-}
-
-.card {
-    background: white;
-    border: 1px solid #e0e6ec;
-    padding: 28px 20px;
-    min-height: 250px;
-    transition: .25s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0,30,60,.08);
-}
-
-.icon {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    background: #e8f2fc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #0874d1;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.card h3 {
-    font-size: 16px;
-    margin-bottom: 12px;
-    color: #092b52;
-}
-
-.card p {
-    color: #657383;
-    font-size: 13px;
-    line-height: 1.7;
-}
-
-.card-link {
-    display: block;
-    margin-top: 18px;
-    color: #0874d1;
-    font-size: 13px;
-    font-weight: bold;
-}
-
-
-/* =========================================================
-   RESEARCH AREAS
-========================================================= */
-
-.research-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
-}
-
-.research-card {
-    border: 1px solid #e1e6eb;
-    padding: 30px;
-    background: white;
-    position: relative;
-}
-
-.research-number {
-    color: #0874d1;
-    font-size: 13px;
-    font-weight: bold;
-    margin-bottom: 12px;
-}
-
-.research-card h3 {
-    font-size: 20px;
-    margin-bottom: 12px;
-    color: #092b52;
-}
-
-.research-card p {
-    color: #657383;
-    font-size: 14px;
 }
 
 
@@ -507,140 +334,6 @@ section {
 
 
 /* =========================================================
-   STATS
-========================================================= */
-
-.stats {
-    background: #062b53;
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-
-.stat {
-    text-align: center;
-    padding: 40px 15px;
-    border-right: 1px solid rgba(255,255,255,.18);
-}
-
-.stat:last-child {
-    border-right: none;
-}
-
-.stat strong {
-    display: block;
-    font-size: 38px;
-    margin-bottom: 4px;
-}
-
-.stat span {
-    font-size: 13px;
-    color: #c9d7e6;
-}
-
-
-/* =========================================================
-   FEATURED RESEARCH
-========================================================= */
-
-.featured {
-    background: white;
-}
-
-.featured-grid {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr;
-    gap: 25px;
-}
-
-.featured-main {
-    min-height: 310px;
-    padding: 40px;
-    background: #092f57;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.featured-main small {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #8bc7ff;
-    font-size: 11px;
-}
-
-.featured-main h3 {
-    font-family: Georgia, serif;
-    font-size: 30px;
-    line-height: 1.25;
-    margin: 15px 0;
-}
-
-.featured-main p {
-    color: #d6e3ef;
-    font-size: 14px;
-}
-
-.featured-side {
-    border: 1px solid #e0e6ec;
-}
-
-.news-item {
-    padding: 25px;
-    border-bottom: 1px solid #e0e6ec;
-}
-
-.news-item:last-child {
-    border-bottom: none;
-}
-
-.news-item small {
-    color: #0874d1;
-    font-size: 11px;
-    font-weight: bold;
-}
-
-.news-item h4 {
-    margin-top: 7px;
-    color: #092b52;
-    font-size: 16px;
-}
-
-
-/* =========================================================
-   ADVISORY
-========================================================= */
-
-#advisory {
-    background: #f7f9fb;
-}
-
-
-/* =========================================================
-   CALL TO ACTION
-========================================================= */
-
-.cta {
-    background: #0874d1;
-    color: white;
-    text-align: center;
-}
-
-.cta h2 {
-    font-family: Georgia, serif;
-    font-size: 38px;
-    margin-bottom: 12px;
-}
-
-.cta p {
-    max-width: 650px;
-    margin: auto auto 25px;
-    color: #e5f2ff;
-}
-
-
-/* =========================================================
    FOOTER
 ========================================================= */
 
@@ -707,21 +400,8 @@ footer li {
         display: block;
     }
 
-    .cards {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .research-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .about-grid,
-    .featured-grid {
+    .about-grid {
         grid-template-columns: 1fr;
-    }
-
-    .stats {
-        grid-template-columns: repeat(2,1fr);
     }
 
     .footer-grid {
@@ -752,29 +432,12 @@ footer li {
         height: 40px;
     }
 
-    .hero {
-        min-height: 520px;
-    }
-
-    .hero h1 {
-        font-size: 34px;
-    }
-
-    .hero p {
-        font-size: 16px;
+    .page-heading h1 {
+        font-size: 30px;
     }
 
     section {
         padding: 55px 0;
-    }
-
-    .cards,
-    .research-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .stats {
-        grid-template-columns: 1fr 1fr;
     }
 
     .footer-grid {
@@ -792,10 +455,6 @@ footer li {
 
     .founder h3 {
         font-size: 27px;
-    }
-
-    .btn {
-        margin-bottom: 10px;
     }
 
 }
@@ -831,6 +490,7 @@ footer li {
     outline: 2px solid #0874d1;
     outline-offset: 4px;
 }
+
 /* Founder photo size */
 #about img {
     width: 100%;
@@ -848,6 +508,7 @@ footer li {
         margin: 0 auto 25px;
     }
 }
+
 </style>
 </head>
 
@@ -887,7 +548,7 @@ footer li {
 
     <div class="container navbar">
 
-        <a href="#" class="logo">
+        <a href="index.html" class="logo">
 
             <div class="logo-main">
                 ARS
@@ -909,25 +570,25 @@ footer li {
 
         <nav class="nav-links">
 
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
 
             <a href="about.html">
                 About Us
             </a>
 
-            <a href="#research">
+            <a href="index.html#research">
                 Research
             </a>
 
-            <a href="#publications">
+            <a href="index.html#publications">
                 Publications
             </a>
 
-            <a href="#advisory">
+            <a href="index.html#advisory">
                 Advisory
             </a>
 
-            <a href="#news">
+            <a href="index.html#news">
                 News & Events
             </a>
 
@@ -954,23 +615,27 @@ footer li {
 
     <div id="mobileDropdown" class="mobile-dropdown">
 
+        <a href="index.html">
+            Home
+        </a>
+
         <a href="about.html">
             About Us
         </a>
 
-        <a href="#research">
+        <a href="index.html#research">
             Research
         </a>
 
-        <a href="#publications">
+        <a href="index.html#publications">
             Publications
         </a>
 
-        <a href="#advisory">
+        <a href="index.html#advisory">
             Advisory
         </a>
 
-        <a href="#news">
+        <a href="index.html#news">
             News & Events
         </a>
 
@@ -980,358 +645,20 @@ footer li {
 
 
 <!-- =====================================================
-     HERO
+     PAGE HEADING
 ===================================================== -->
 
-<section class="hero">
-
-    <div class="container hero-content">
-
-        <h1>
-
-            Independent Research.<br>
-
-            Informed Decisions.<br>
-
-            <span>
-                A Better Pakistan.
-            </span>
-
-        </h1>
-
-
-        <p>
-
-            Ardent Research Solutions (Pvt.) Ltd. is a
-            Pakistan focused research and advisory company
-            providing independent research, policy analysis
-            and strategic intelligence to businesses,
-            institutions and decision-makers.
-
-        </p>
-
-
-        <a
-            href="#research"
-            class="btn btn-primary">
-
-            Explore Our Research
-
-        </a>
-
-
-        <a
-            href="about.html"
-            class="btn btn-outline">
-
-            About ARS
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     PUBLICATIONS
-===================================================== -->
-
-<section
-    class="publications"
-    id="publications">
+<div class="page-heading">
 
     <div class="container">
 
-        <div class="section-heading">
+        <h1>About ARS</h1>
 
-            <div class="eyebrow">
-                Our Publications
-            </div>
-
-            <h2>
-                Research That Matters
-            </h2>
-
-            <p>
-                Evidence based analysis designed to help
-                decision makers understand Pakistan's
-                economy, society and institutions.
-            </p>
-
-        </div>
-
-
-        <div class="cards">
-
-
-            <div class="card">
-
-                <div class="icon">
-                    ▣
-                </div>
-
-                <h3>
-                    Research Reports
-                </h3>
-
-                <p>
-                    In-depth, evidence based research on
-                    critical national, economic and social
-                    issues.
-                </p>
-
-                <span class="card-link">
-                    View all →
-                </span>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">
-                    ▤
-                </div>
-
-                <h3>
-                    Policy Briefs
-                </h3>
-
-                <p>
-                    Actionable recommendations for
-                    policymakers and institutional
-                    stakeholders.
-                </p>
-
-                <span class="card-link">
-                    View all →
-                </span>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">
-                    ✦
-                </div>
-
-                <h3>
-                    ARS Insights
-                </h3>
-
-                <p>
-                    Timely analysis and perspectives on
-                    current issues shaping Pakistan's future.
-                </p>
-
-                <span class="card-link">
-                    View all →
-                </span>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">
-                    ◔
-                </div>
-
-                <h3>
-                    Data Briefs
-                </h3>
-
-                <p>
-                    Key data, visualizations and insights
-                    on the numbers that matter.
-                </p>
-
-                <span class="card-link">
-                    View all →
-                </span>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">
-                    ★
-                </div>
-
-                <h3>
-                    Special Reports
-                </h3>
-
-                <p>
-                    Major thematic reports examining
-                    Pakistan's most important questions.
-                </p>
-
-                <span class="card-link">
-                    View all →
-                </span>
-
-            </div>
-
-
-        </div>
+        <p>Independent research for better decisions.</p>
 
     </div>
 
-</section>
-
-
-<!-- =====================================================
-     RESEARCH AREAS
-===================================================== -->
-
-<section id="research">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Our Expertise
-            </div>
-
-            <h2>
-                Research Areas
-            </h2>
-
-            <p>
-                Multidisciplinary research covering the
-                issues that matter most to Pakistan's
-                development.
-            </p>
-
-        </div>
-
-
-        <div class="research-grid">
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    01
-                </div>
-
-                <h3>
-                    Economy & Public Policy
-                </h3>
-
-                <p>
-                    Macroeconomy, fiscal and monetary
-                    policy, taxation, debt, inflation,
-                    trade and employment.
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    02
-                </div>
-
-                <h3>
-                    Business, Industry & Markets
-                </h3>
-
-                <p>
-                    Industry, SMEs, investment, trade,
-                    competitiveness, consumer markets
-                    and financial services.
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    03
-                </div>
-
-                <h3>
-                    Governance & Institutions
-                </h3>
-
-                <p>
-                    Government performance, regulation,
-                    public sector reform, accountability
-                    and institutions.
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    04
-                </div>
-
-                <h3>
-                    Society & Human Development
-                </h3>
-
-                <p>
-                    Education, health, employment,
-                    demographics, poverty, inequality
-                    and social mobility.
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    05
-                </div>
-
-                <h3>
-                    Cities, Infrastructure & Climate
-                </h3>
-
-                <p>
-                    Urbanization, housing, transport,
-                    energy, water, infrastructure and
-                    climate change.
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    06
-                </div>
-
-                <h3>
-                    Technology & Digital Economy
-                </h3>
-
-                <p>
-                    AI, fintech, digitalization,
-                    digital economy and technology policy.
-                </p>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
+</div>
 
 
 <!-- =====================================================
@@ -1416,15 +743,15 @@ footer li {
 
             <div class="founder">
 
-    <img src="reza-khan.jpg" alt="Reza Khan, Founder and Director of Ardent Research Solutions" class="founder-photo">
+                <img src="reza-khan.jpg" alt="Reza Khan, Founder and Director of Ardent Research Solutions" class="founder-photo">
 
-    <div class="founder-label">
-        Founder & Director
-    </div>
+                <div class="founder-label">
+                    Founder & Director
+                </div>
 
-    <h3>
-        Reza Khan
-    </h3>
+                <h3>
+                    Reza Khan
+                </h3>
 
                 <div class="founder-title">
                     Founder & Director,
@@ -1479,303 +806,6 @@ footer li {
 
 
 <!-- =====================================================
-     STATS
-===================================================== -->
-
-<section
-    class="stats">
-
-    <div class="stat">
-
-        <strong>
-            150+
-        </strong>
-
-        <span>
-            Research Publications
-        </span>
-
-    </div>
-
-
-    <div class="stat">
-
-        <strong>
-            50+
-        </strong>
-
-        <span>
-            Advisory & Research Clients
-        </span>
-
-    </div>
-
-
-    <div class="stat">
-
-        <strong>
-            6
-        </strong>
-
-        <span>
-            Research Areas
-        </span>
-
-    </div>
-
-
-    <div class="stat">
-
-        <strong>
-            2018
-        </strong>
-
-        <span>
-            Year Established
-        </span>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     FEATURED RESEARCH / NEWS
-===================================================== -->
-
-<section
-    class="featured"
-    id="news">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                What's New
-            </div>
-
-            <h2>
-                Latest Research & Insights
-            </h2>
-
-        </div>
-
-
-        <div class="featured-grid">
-
-
-            <div class="featured-main">
-
-                <small>
-                    ARS Research Report
-                </small>
-
-                <h3>
-                    Pakistan's Fiscal Outlook 2026–27:
-                    Challenges and Choices
-                </h3>
-
-                <p>
-
-                    Understanding Pakistan's fiscal
-                    position and the policy choices that
-                    will shape economic growth and stability.
-
-                </p>
-
-            </div>
-
-
-            <div class="featured-side">
-
-
-                <div class="news-item">
-
-                    <small>
-                        POLICY BRIEF
-                    </small>
-
-                    <h4>
-                        Reforming the Tax System
-                        for Growth and Equity
-                    </h4>
-
-                </div>
-
-
-                <div class="news-item">
-
-                    <small>
-                        ARS INSIGHT
-                    </small>
-
-                    <h4>
-                        Why Electricity Prices Continue
-                        to Hurt Industry
-                    </h4>
-
-                </div>
-
-
-                <div class="news-item">
-
-                    <small>
-                        DATA BRIEF
-                    </small>
-
-                    <h4>
-                        Pakistan's Economic Indicators:
-                        What the Numbers Tell Us
-                    </h4>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     ADVISORY
-===================================================== -->
-
-<section id="advisory">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Advisory Services
-            </div>
-
-            <h2>
-                Research. Strategy. Results.
-            </h2>
-
-            <p>
-
-                We provide research and advisory solutions
-                to businesses, institutions, development
-                organisations and public sector stakeholders.
-
-            </p>
-
-        </div>
-
-
-        <div class="research-grid">
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    01
-                </div>
-
-                <h3>
-                    Economic Advisory
-                </h3>
-
-                <p>
-
-                    Economic analysis, forecasting,
-                    sector studies and policy assessment.
-
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    02
-                </div>
-
-                <h3>
-                    Market Intelligence
-                </h3>
-
-                <p>
-
-                    Market research, competitive intelligence,
-                    consumer research and feasibility studies.
-
-                </p>
-
-            </div>
-
-
-            <div class="research-card">
-
-                <div class="research-number">
-                    03
-                </div>
-
-                <h3>
-                    Policy & Strategy
-                </h3>
-
-                <p>
-
-                    Policy design, institutional analysis
-                    and strategic advice for organisations
-                    and decision-makers.
-
-                </p>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     CALL TO ACTION
-===================================================== -->
-
-<section class="cta">
-
-    <div class="container">
-
-        <h2>
-            Let's solve important problems together.
-        </h2>
-
-        <p>
-
-            Whether you need independent research,
-            market intelligence, policy analysis or
-            strategic advisory support, talk to ARS.
-
-        </p>
-
-
-        <a
-            href="mailto:info@ARS.com.pk"
-            class="btn btn-outline">
-
-            Contact ARS
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
      FOOTER
 ===================================================== -->
 
@@ -1820,19 +850,19 @@ footer li {
                     </li>
 
                     <li>
-                        <a href="#research">
+                        <a href="index.html#research">
                             Research Areas
                         </a>
                     </li>
 
                     <li>
-                        <a href="#publications">
+                        <a href="index.html#publications">
                             Publications
                         </a>
                     </li>
 
                     <li>
-                        <a href="#advisory">
+                        <a href="index.html#advisory">
                             Advisory Services
                         </a>
                     </li>
