@@ -495,35 +495,63 @@ footer li {
     outline-offset: 4px;
 }
 
-/* Founder photo size */
-#about img {
+/* =========================================================
+   DIRECTOR PHOTOS & BIOGRAPHIES
+========================================================= */
+
+/* Founder photo */
+#about .founder-photo {
     width: 100%;
     max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto 35px;
 }
-/* Director photo size */
-.director-photo {
+
+/* Director photo */
+#about .director-photo {
     width: 180px;
     height: 220px;
     object-fit: cover;
     object-position: center top;
     display: block;
-    margin-bottom: 25px;
+    margin: 0 auto 35px;
 }
-   }
 
-.director-card + .director-card {
-    margin-top: 80px;
+/* Director biography text */
+#about .director-card p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+/* Clear separation between Reza Khan's biography and Dr. Rubina Fareed's card */
+#about .director-card:first-child {
+    margin-bottom: 110px;
+}
+
+/* Keep the spacing consistent if the cards are treated as adjacent blocks */
+#about .director-card + .director-card {
+    margin-top: 0;
 }
 
 /* Mobile */
 @media (max-width: 768px) {
-    #about img {
+    #about .founder-photo {
         max-width: 300px;
         width: 85%;
         margin: 0 auto 25px;
+    }
+
+    #about .director-photo {
+        width: 180px;
+        height: 220px;
+        margin: 0 auto 25px;
+    }
+
+    #about .director-card:first-child {
+        margin-bottom: 70px;
     }
 }
 
@@ -844,11 +872,7 @@ footer li {
                     </p>
                    
                          <p>
-                        At ARS, she contibutes to research and advisory
-                        initiatives that bring together institutional experience,
-                        evidence based analysis and practical perspectives
-                        to support better decision making across businesses,
-                        organisations, and public sector institutions.
+                        At ARS, she contributes to research and advisory initiatives that bring together institutional experience, evidence-based analysis, and practical perspectives to support better decision-making across businesses, organisations, and public sector institutions.
 
                     </p>
                 </div>
