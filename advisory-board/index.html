@@ -1,1 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Advisory Board | Ardent Research Solutions</title>
+
+<meta name="description"
+content="Advisory Board of Ardent Research Solutions (Pvt.) Ltd.">
+
+<style>
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #102d50;
+    line-height: 1.6;
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 92%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+
+/* =========================================================
+   HEADER / NAVIGATION
+========================================================= */
+
+header {
+    background: white;
+    border-bottom: 1px solid #e5e9ee;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.logo-main {
+    font-family: Georgia, serif;
+    font-size: 70px;
+    line-height: 1;
+    color: #092b52;
+}
+
+.logo-divider {
+    width: 1px;
+    height: 50px;
+    background: #c9cfd6;
+}
+
+.logo-text {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #092b52;
+    letter-spacing: .3px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-links a {
+    color: #172f4b;
+    transition: .2s;
+}
+
+.nav-links a:hover {
+    color: #1268c4;
+}
+
+.nav-links a.active {
+    color: #1268c4;
+}
+
+
+/* =========================================================
+   PAGE HERO
+========================================================= */
+
+.page-hero {
+    background: #f5f7fa;
+    padding: 85px 0 75px;
+    border-bottom: 1px solid #e5e9ee;
+}
+
+.page-hero .container {
+    text-align: center;
+}
+
+.eyebrow {
+    color: #0874d1;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.page-hero h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    font-weight: normal;
+    color: #092b52;
+    margin-bottom: 18px;
+}
+
+.page-hero p {
+    max-width: 760px;
+    margin: auto;
+    color: #60758d;
+    font-size: 17px;
+}
+
+
+/* =========================================================
+   ADVISOR SECTION
+========================================================= */
+
+.advisory-section {
+    padding: 80px 0 100px;
+    background: #ffffff;
+}
+
+.advisor-card {
+    max-width: 1050px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 55px;
+    align-items: start;
+    background: #ffffff;
+}
+
+.advisor-photo {
+    width: 100%;
+    border-radius: 2px;
+    display: block;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+}
+
+.advisor-info {
+    padding-top: 5px;
+}
+
+.advisor-info .role {
+    color: #0874d1;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.advisor-info h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    color: #092b52;
+    line-height: 1.25;
+    margin-bottom: 25px;
+}
+
+.advisor-bio p {
+    color: #536b84;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+
+    /* JUSTIFIED TEXT */
+    text-align: justify;
+}
+
+.advisor-bio p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    background: #06264a;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    opacity: .9;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 800px) {
+
+    .navbar {
+        min-height: 75px;
+    }
+
+    .logo-main {
+        font-size: 52px;
+    }
+
+    .logo-divider {
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 10px;
+    }
+
+    .nav-links {
+        gap: 13px;
+        font-size: 12px;
+    }
+
+    .page-hero {
+        padding: 60px 0 55px;
+    }
+
+    .page-hero h1 {
+        font-size: 38px;
+    }
+
+    .advisor-card {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        max-width: 650px;
+    }
+
+    .advisor-photo {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .advisor-info h2 {
+        font-size: 30px;
+    }
+
+    .advisor-bio p {
+        text-align: justify;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .nav-links {
+        gap: 9px;
+        font-size: 11px;
+    }
+
+    .logo {
+        gap: 8px;
+    }
+
+    .logo-main {
+        font-size: 44px;
+    }
+
+    .logo-divider {
+        height: 34px;
+    }
+
+    .logo-text {
+        font-size: 8px;
+    }
+
+    .page-hero h1 {
+        font-size: 34px;
+    }
+
+    .page-hero p {
+        font-size: 15px;
+    }
+
+    .advisory-section {
+        padding: 55px 0 70px;
+    }
+
+    .advisor-info h2 {
+        font-size: 27px;
+    }
+
+    .advisor-bio p {
+        font-size: 15px;
+        line-height: 1.75;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="../index.html" class="logo">
+
+            <div class="logo-main">
+                ARS
+            </div>
+
+            <div class="logo-divider"></div>
+
+            <div class="logo-text">
+                Ardent<br>
+                Research<br>
+                Solutions<br>
+                (Pvt.) Ltd.
+            </div>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="../about.html">
+                About Us
+            </a>
+
+            <a href="../index.html#research">
+                Research
+            </a>
+
+            <a href="../index.html#publications">
+                Publications
+            </a>
+
+            <a href="index.html" class="active">
+                Advisory Board
+            </a>
+
+            <a href="../index.html#news">
+                News &amp; Events
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     PAGE HERO
+========================================================= -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            ARDENT RESEARCH SOLUTIONS
+        </div>
+
+        <h1>
+            Advisory Board
+        </h1>
+
+        <p>
+            Distinguished professionals providing expertise,
+            perspective and strategic guidance to Ardent Research Solutions.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ADVISOR
+========================================================= -->
+
+<section class="advisory-section">
+
+    <div class="container">
+
+        <div class="advisor-card">
+
+            <!-- ADVISOR PHOTO -->
+
+            <div>
+                <img
+                    src="../sanaullah-aman.jpg"
+                    alt="Dr. Engr. Sanaullah Aman"
+                    class="advisor-photo"
+                >
+            </div>
+
+
+            <!-- ADVISOR INFORMATION -->
+
+            <div class="advisor-info">
+
+                <div class="role">
+                    Advisory Board Member
+                </div>
+
+                <h2>
+                    Dr. Engr. Sanaullah Aman
+                </h2>
+
+
+                <div class="advisor-bio">
+
+                    <p>
+                        Dr. Engr. Sanaullah Aman is a dispute resolution
+                        professional, academic, and institutional leader
+                        working at the intersection of law, management,
+                        and public sector governance.
+                    </p>
+
+                    <p>
+                        His foundation includes extensive public sector
+                        service as a former officer in the Capital
+                        Development Authority (CDA), providing direct
+                        experience with administrative systems and
+                        complex regulatory dispute environments.
+                    </p>
+
+                    <p>
+                        He serves as a Member of the Selection Board of
+                        the Pakistan Engineering Council (PEC) and the
+                        Association of Consulting Engineers of Pakistan
+                        (ACEP). Additionally, he is a Professor of
+                        Management and author of the book
+                        <em>
+                            "Alternative Dispute Resolution in a
+                            Globalized World: Law, Practice and Innovation."
+                        </em>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container">
+
+        <p>
+            &copy; 2026 Ardent Research Solutions (Pvt.) Ltd.
+            All rights reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+</body>
+</html>
