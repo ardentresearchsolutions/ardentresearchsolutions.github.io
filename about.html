@@ -529,10 +529,38 @@ footer li {
     margin-top: 0;
 }
 
+/* Founder photo gated behind a click. Name, title and bio stay
+   directly on this page as the credibility anchor (2 clicks from
+   Home); the photo itself sits one step further in. */
+#about .founder-photo-gate {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    margin: 0 auto 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f7fb;
+    border: 1px solid #e0e6ee;
+    border-radius: 6px;
+}
+
+#about .view-photo-link {
+    color: #0874d1;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+#about .view-photo-link:hover {
+    text-decoration: underline;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     #about .founder-photo,
-    #about .director-photo {
+    #about .director-photo,
+    #about .founder-photo-gate {
         width: 100%;
         max-width: 500px;
         height: 500px;
@@ -782,9 +810,11 @@ footer li {
 
                 <div class="director-card">
 
-                    <img src="reza-khan.jpg"
-                         alt="Reza Khan, Founder and Director of Ardent Research Solutions"
-                         class="founder-photo">
+                    <div class="founder-photo-gate">
+                        <a href="profile.html" class="view-photo-link">
+                            View photo &rarr;
+                        </a>
+                    </div>
 
                     <div class="director-label">
                         Founder & Director
@@ -843,7 +873,7 @@ footer li {
                 
                     <p>
                         Dr. Rubina Fareed is a physician with extensive
-                        experience in women’s health, human rights, and
+                        experience in women's health, human rights, and
                         community development. She has served in leadership
                         and advisory roles focused on protecting the rights
                         and welfare of women and children, including work
@@ -852,7 +882,7 @@ footer li {
 
                     <p>
                         Her work combines medical expertise with a longstanding
-                        commitment to women’s empowerment, health awareness,
+                        commitment to women's empowerment, health awareness,
                         and social welfare. She has received the National
                         Human Rights Award and an Achievement Award from the
                         Ministry of Human Rights, as well as the Fatima Jinnah
