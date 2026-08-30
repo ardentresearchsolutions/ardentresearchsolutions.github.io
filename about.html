@@ -499,18 +499,6 @@ footer li {
    DIRECTOR PHOTOS & BIOGRAPHIES
 ========================================================= */
 
-/* Founder and Director photos — identical dimensions */
-#about .founder-photo,
-#about .director-photo {
-    width: 500px;
-    height: 500px;
-    max-width: 100%;
-    object-fit: cover;
-    object-position: center top;
-    display: block;
-    margin: 0 auto 35px;
-}
-
 /* Director biography text */
 #about .director-card p {
     text-align: justify;
@@ -519,19 +507,18 @@ footer li {
     margin-bottom: 18px;
 }
 
-/* Clear separation between Reza Khan's biography and Dr. Rubina Fareed's card */
+/* Clear separation between the two director cards */
 #about .director-card:first-child {
     margin-bottom: 110px;
 }
 
-/* Keep the spacing consistent if the cards are treated as adjacent blocks */
 #about .director-card + .director-card {
     margin-top: 0;
 }
 
-/* Founder photo gated behind a click. Name, title and bio stay
-   directly on this page as the credibility anchor (2 clicks from
-   Home); the photo itself sits one step further in. */
+/* Photos gated behind a click. Name, title and bio stay
+   directly on this page as the credibility anchor (2 clicks
+   from Home); the photo itself sits one step further in. */
 #about .founder-photo-gate {
     width: 500px;
     height: 500px;
@@ -558,8 +545,6 @@ footer li {
 
 /* Mobile */
 @media (max-width: 768px) {
-    #about .founder-photo,
-    #about .director-photo,
     #about .founder-photo-gate {
         width: 100%;
         max-width: 500px;
@@ -725,7 +710,7 @@ footer li {
 
 
 <!-- =====================================================
-     ABOUT ARS / FOUNDER
+     ABOUT ARS / DIRECTORS
 ===================================================== -->
 
 <section
@@ -802,7 +787,7 @@ footer li {
             </div>
 
 
-            <!-- FOUNDER -->
+            <!-- DIRECTORS -->
 
             <div class="directors-grid">
 
@@ -859,9 +844,13 @@ footer li {
                 <!-- DIRECTOR -->
 
                 <div class="director-card">
-<img src="rubina-fareed.jpg"
-     alt="Dr. Rubina Fareed, Director of Ardent Research Solutions"
-     class="director-photo">
+
+                    <div class="founder-photo-gate">
+                        <a href="profile2.html" class="view-photo-link">
+                            View photo &rarr;
+                        </a>
+                    </div>
+
                     <div class="director-label">
                         Director
                     </div>
