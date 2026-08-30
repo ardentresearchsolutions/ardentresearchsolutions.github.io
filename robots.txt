@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /profile-01.jpg
+Disallow: /profile01.jpg
