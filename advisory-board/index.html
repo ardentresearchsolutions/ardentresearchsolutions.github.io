@@ -165,22 +165,31 @@ header {
 .advisor-card {
     max-width: 1050px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    gap: 55px;
-    align-items: start;
     background: #ffffff;
 }
 
-.advisor-photo {
-    width: 100%;
-    border-radius: 2px;
-    display: block;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+/* Photo gated behind a click. Name, role and bio stay on this
+   page as the credibility anchor; the photo sits one step in.
+   The gate is sized to its own text, not to the photo. */
+.photo-gate {
+    display: inline-block;
+    padding: 9px 18px;
+    margin-bottom: 22px;
+    background: #f4f7fb;
+    border: 1px solid #e0e6ee;
+    border-radius: 4px;
 }
 
-.advisor-info {
-    padding-top: 5px;
+.photo-gate a {
+    color: #0874d1;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+
+.photo-gate a:hover {
+    text-decoration: underline;
 }
 
 .advisor-info .role {
@@ -268,14 +277,7 @@ footer p {
     }
 
     .advisor-card {
-        grid-template-columns: 1fr;
-        gap: 35px;
         max-width: 650px;
-    }
-
-    .advisor-photo {
-        max-width: 400px;
-        margin: auto;
     }
 
     .advisor-info h2 {
@@ -437,20 +439,15 @@ footer p {
 
         <div class="advisor-card">
 
-            <!-- ADVISOR PHOTO -->
-
-            <div>
-                <img
-                    src="../sanaullah-aman.jpg"
-                    alt="Dr. Engr. Sanaullah Aman"
-                    class="advisor-photo"
-                >
-            </div>
-
-
             <!-- ADVISOR INFORMATION -->
 
             <div class="advisor-info">
+
+                <div class="photo-gate">
+                    <a href="../profile3.html">
+                        View photo &rarr;
+                    </a>
+                </div>
 
                 <div class="role">
                     Advisory Board Member
