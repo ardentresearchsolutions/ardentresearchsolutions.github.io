@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /profile01.jpg
 Disallow: /profile02.jpg
+Disallow: /profile03.jpg
