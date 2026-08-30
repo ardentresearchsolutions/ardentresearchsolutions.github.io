@@ -496,7 +496,7 @@ footer li {
 }
 
 /* =========================================================
-   DIRECTOR PHOTOS & BIOGRAPHIES
+   DIRECTOR BIOGRAPHIES
 ========================================================= */
 
 /* Director biography text */
@@ -507,9 +507,9 @@ footer li {
     margin-bottom: 18px;
 }
 
-/* Clear separation between the two director cards */
+/* Separation between the two director cards */
 #about .director-card:first-child {
-    margin-bottom: 110px;
+    margin-bottom: 60px;
 }
 
 #about .director-card + .director-card {
@@ -518,25 +518,25 @@ footer li {
 
 /* Photos gated behind a click. Name, title and bio stay
    directly on this page as the credibility anchor (2 clicks
-   from Home); the photo itself sits one step further in. */
+   from Home); the photo itself sits one step further in.
+   The gate is sized to its own text, not to the photo. */
 #about .founder-photo-gate {
-    width: 500px;
-    height: 500px;
+    display: inline-block;
+    width: auto;
     max-width: 100%;
-    margin: 0 auto 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 9px 18px;
+    margin: 0 0 18px;
     background: #f4f7fb;
     border: 1px solid #e0e6ee;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 #about .view-photo-link {
     color: #0874d1;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.3px;
+    white-space: nowrap;
 }
 
 #about .view-photo-link:hover {
@@ -545,15 +545,8 @@ footer li {
 
 /* Mobile */
 @media (max-width: 768px) {
-    #about .founder-photo-gate {
-        width: 100%;
-        max-width: 500px;
-        height: 500px;
-        margin: 0 auto 25px;
-    }
-
     #about .director-card:first-child {
-        margin-bottom: 70px;
+        margin-bottom: 45px;
     }
 }
 
