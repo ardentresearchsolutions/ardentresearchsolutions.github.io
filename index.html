@@ -524,6 +524,10 @@ section {
     font-size: 16px;
 }
 
+.news-item .news-desc {
+    display: none;
+}
+
 
 /* =========================================================
    ADVISORY
@@ -719,8 +723,34 @@ footer li {
         padding: 28px;
     }
 
+    .featured-side {
+        border: none;
+    }
+
     .news-item {
-        padding: 18px;
+        padding: 22px 18px;
+        background: #092f57;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .news-item:last-child {
+        border-bottom: none;
+    }
+
+    .news-item small {
+        color: #8bc7ff;
+    }
+
+    .news-item h4 {
+        color: white;
+    }
+
+    .news-item .news-desc {
+        display: block;
+        color: #d6e3ef;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-top: 10px;
     }
 
     .stats {
@@ -1366,6 +1396,16 @@ a.featured-main:hover h3 {
                         EV Opportunity Really Lies
                     </h4>
 
+                    <p class="news-desc">
+                        An assessment of Pakistan's electric vehicle
+                        transition, examining investment opportunities
+                        across batteries, components, charging
+                        infrastructure, commercial mobility and two and
+                        three wheelers, with particular focus on
+                        opportunities for Chinese investors and
+                        technology partners.
+                    </p>
+
                 </a>
 
 
@@ -1382,6 +1422,14 @@ a.featured-main:hover h3 {
                         Catch the EV Wave?
                     </h4>
 
+                    <p class="news-desc">
+                        A data driven assessment of Pakistan's
+                        National Lithium-Ion Battery Manufacturing
+                        Policy 2026&ndash;31 and the evolving EV Battery
+                        Policy, examining localisation targets, tariff
+                        structures and performance-based incentives.
+                    </p>
+
                 </a>
 
 
@@ -1396,6 +1444,13 @@ a.featured-main:hover h3 {
                     <h4>
                         Plug and Play, or Still Plugging In?
                     </h4>
+
+                    <p class="news-desc">
+                        An assessment of Pakistan's CPEC Special
+                        Economic Zones, examining their development,
+                        institutional framework, investment environment
+                        and strategic potential.
+                    </p>
 
                 </a>
 
