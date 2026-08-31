@@ -497,11 +497,15 @@ section {
 
 .featured-side {
     border: 1px solid #e0e6ec;
+    display: flex;
+    flex-direction: column;
 }
 
 .news-item {
     padding: 25px;
     border-bottom: 1px solid #e0e6ec;
+    flex: 1;
+    justify-content: center;
 }
 
 .news-item:last-child {
@@ -786,7 +790,9 @@ footer li {
 
 /* Publication cards in What's New are links */
 a.news-item {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 a.featured-main:hover h3,
