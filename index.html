@@ -475,6 +475,39 @@ section {
     justify-content: flex-end;
 }
 
+.publication-cover {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background-position: center;
+    background-size: cover;
+}
+
+.publication-cover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(3, 22, 43, .34), rgba(3, 22, 43, .94));
+}
+
+.publication-cover > * {
+    position: relative;
+    z-index: 1;
+}
+
+.cover-policy-brief {
+    background-image: url("assets/publications/ars-pb-2026-002-china-plus-one.png");
+}
+
+.cover-data-brief {
+    background-image: url("assets/publications/ars-db-2026-001-battery-race.png");
+}
+
+.cover-insight {
+    background-image: url("assets/publications/ars-in-2026-003-astana.png");
+}
+
 .featured-main small {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -506,6 +539,19 @@ section {
     border-bottom: 1px solid #e0e6ec;
     flex: 1;
     justify-content: center;
+}
+
+.news-item.publication-cover {
+    color: white;
+    min-height: 152px;
+}
+
+.news-item.publication-cover small {
+    color: #b8f2f3;
+}
+
+.news-item.publication-cover h4 {
+    color: white;
 }
 
 .news-item:last-child {
@@ -832,6 +878,10 @@ a.news-item:hover h4 {
 
 a.featured-main:hover h3 {
     color: #8bc7ff;
+}
+
+a.news-item.publication-cover:hover h4 {
+    color: #b8f2f3;
 }
 
 </style>
@@ -1302,12 +1352,12 @@ a.featured-main:hover h3 {
         <div class="featured-grid">
 
 
-            <a class="featured-main"
+            <a class="featured-main publication-cover cover-policy-brief"
                href="policy-briefs/ARS-Policy-Brief-Pakistan-China-Manufacturing.pdf"
                target="_blank">
 
                 <small>
-                    ARS POLICY BRIEF &nbsp;|&nbsp; 30 AUGUST 2026
+                    ARS POLICY BRIEF &nbsp;|&nbsp; ARS-PB-2026-002 &nbsp;|&nbsp; 30 AUGUST 2026
                 </small>
 
                 <h3>
@@ -1358,12 +1408,12 @@ a.featured-main:hover h3 {
                 </a>
 
 
-                <a class="news-item"
+                <a class="news-item publication-cover cover-data-brief"
                    href="data-briefs/ARS-Pakistan-EV-Battery-Data-Brief-2026.pdf"
                    target="_blank">
 
                     <small>
-                        DATA BRIEF &nbsp;|&nbsp; 28 AUG 2026
+                        DATA BRIEF &nbsp;|&nbsp; ARS-DB-2026-001 &nbsp;|&nbsp; 28 AUG 2026
                     </small>
 
                     <h4>
@@ -1377,6 +1427,25 @@ a.featured-main:hover h3 {
                         Policy 2026&ndash;31 and the evolving EV Battery
                         Policy, examining localisation targets, tariff
                         structures and performance-based incentives.
+                    </p>
+
+                </a>
+
+
+                <a class="news-item publication-cover cover-insight"
+                   href="insights/ARS-Insights-Astana-Model-Pakistan.pdf"
+                   target="_blank">
+
+                    <small>
+                        ARS INSIGHT &nbsp;|&nbsp; ARS-IN-2026-003 &nbsp;|&nbsp; 27 AUG 2026
+                    </small>
+
+                    <h4>
+                        The Arbitration Gap: What Pakistan Can Learn from Astana
+                    </h4>
+
+                    <p class="news-desc">
+                        An analysis of Pakistan's arbitration framework and the lessons from Astana's development as a regional dispute-resolution hub.
                     </p>
 
                 </a>
