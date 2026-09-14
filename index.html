@@ -583,36 +583,93 @@ section {
    WHAT'S NEW — HORIZONTAL COVER STRIP
 ========================================================= */
 
+.cover-strip-wrap {
+    position: relative;
+}
+
 .cover-strip {
     display: flex;
     align-items: flex-start;
     gap: 24px;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 4px 4px 18px;
+    padding: 6px 6px 8px;
     scroll-snap-type: x proximity;
-    scroll-padding-left: 4px;
+    scroll-padding-left: 6px;
+    scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    scrollbar-color: #b9c6d4 #eef2f6;
+
+    /* scrollbar hidden — navigation is via the arrows */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .cover-strip::-webkit-scrollbar {
-    height: 8px;
+    width: 0;
+    height: 0;
+    display: none;
 }
 
-.cover-strip::-webkit-scrollbar-track {
-    background: #eef2f6;
-    border-radius: 4px;
+/* ---- Scroll arrows ---- */
+
+.cover-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgba(9, 43, 82, .10);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .92);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 18px rgba(9, 43, 82, .16);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    color: #092b52;
+
+    opacity: .82;
+    transition: opacity .25s ease, background .25s ease,
+                color .25s ease, box-shadow .25s ease,
+                transform .25s ease;
 }
 
-.cover-strip::-webkit-scrollbar-thumb {
-    background: #b9c6d4;
-    border-radius: 4px;
+.cover-nav svg {
+    width: 17px;
+    height: 17px;
+    display: block;
 }
 
-.cover-strip::-webkit-scrollbar-thumb:hover {
+.cover-nav-prev {
+    left: -14px;
+}
+
+.cover-nav-next {
+    right: -14px;
+}
+
+.cover-nav:hover {
+    opacity: 1;
     background: #0874d1;
+    color: #ffffff;
+    box-shadow: 0 8px 24px rgba(8, 116, 209, .34);
+}
+
+.cover-nav:focus-visible {
+    opacity: 1;
+    outline: 2px solid #0874d1;
+    outline-offset: 3px;
+}
+
+.cover-nav[disabled] {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .cover-thumb {
@@ -652,17 +709,37 @@ section {
         width: 230px;
     }
 
+    .cover-nav-prev {
+        left: -8px;
+    }
+
+    .cover-nav-next {
+        right: -8px;
+    }
+
+}
+
+/* Touch devices swipe the strip directly — no arrows needed */
+@media (hover: none), (pointer: coarse) {
+
+    .cover-nav {
+        display: none;
+    }
+
 }
 
 @media (max-width: 600px) {
 
     .cover-strip {
         gap: 16px;
-        padding-bottom: 14px;
     }
 
     .cover-thumb {
         width: 190px;
+    }
+
+    .cover-nav {
+        display: none;
     }
 
 }
@@ -1442,7 +1519,38 @@ a.news-item.publication-cover:hover h4 {
         </div>
 
 
-        <div class="cover-strip">
+        <div class="cover-strip-wrap">
+
+
+            <button class="cover-nav cover-nav-prev"
+                    type="button"
+                    aria-label="Scroll to previous publications"
+                    aria-controls="coverStrip">
+
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"
+                     stroke="currentColor" stroke-width="2.1"
+                     stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 5 8 12 15 19"></polyline>
+                </svg>
+
+            </button>
+
+
+            <button class="cover-nav cover-nav-next"
+                    type="button"
+                    aria-label="Scroll to more publications"
+                    aria-controls="coverStrip">
+
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"
+                     stroke="currentColor" stroke-width="2.1"
+                     stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 5 16 12 9 19"></polyline>
+                </svg>
+
+            </button>
+
+
+        <div class="cover-strip" id="coverStrip">
 
 
             <a class="cover-thumb"
@@ -1514,6 +1622,8 @@ a.news-item.publication-cover:hover h4 {
 
             </a>
 
+
+        </div>
 
         </div>
 
@@ -1915,6 +2025,80 @@ document
         }
 
     });
+
+
+/* =========================================================
+   WHAT'S NEW — COVER STRIP ARROWS
+========================================================= */
+
+(function() {
+
+    const strip =
+        document.getElementById("coverStrip");
+
+    if (!strip) {
+        return;
+    }
+
+    const prev =
+        document.querySelector(".cover-nav-prev");
+
+    const next =
+        document.querySelector(".cover-nav-next");
+
+    if (!prev || !next) {
+        return;
+    }
+
+
+    /* One card + gap, so each click advances a full cover */
+
+    function step() {
+
+        const card =
+            strip.querySelector(".cover-thumb");
+
+        if (!card) {
+            return strip.clientWidth * 0.8;
+        }
+
+        const styles =
+            window.getComputedStyle(strip);
+
+        const gap =
+            parseFloat(styles.columnGap || styles.gap) || 24;
+
+        return card.getBoundingClientRect().width + gap;
+
+    }
+
+
+    function update() {
+
+        const max =
+            strip.scrollWidth - strip.clientWidth;
+
+        prev.disabled = strip.scrollLeft <= 2;
+        next.disabled = strip.scrollLeft >= max - 2;
+
+    }
+
+
+    prev.addEventListener("click", function() {
+        strip.scrollBy({ left: -step(), behavior: "smooth" });
+    });
+
+    next.addEventListener("click", function() {
+        strip.scrollBy({ left: step(), behavior: "smooth" });
+    });
+
+    strip.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    window.addEventListener("load", update);
+
+    update();
+
+})();
 
 </script>
 
