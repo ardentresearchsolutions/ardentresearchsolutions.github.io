@@ -258,17 +258,7 @@ header {
    FOOTER
 ========================================================= */
 
-footer {
-    background: #06264a;
-    color: white;
-    padding: 30px 0;
-    text-align: center;
-}
 
-footer p {
-    font-size: 14px;
-    opacity: .9;
-}
 
 
 /* =========================================================
@@ -377,6 +367,109 @@ footer p {
         font-size: 15px;
         line-height: 1.75;
         text-align: left;
+    }
+}
+
+
+/* =========================================================
+   SITE FOOTER
+========================================================= */
+
+.site-footer {
+    background: #031d38;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 55px 0 20px;
+    margin: 0;
+}
+
+.site-footer .footer-inner {
+    width: 92%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.site-footer .footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.3fr;
+    gap: 45px;
+    padding-bottom: 40px;
+}
+
+.site-footer .footer-logo {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    line-height: 1;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.site-footer p {
+    color: #b9c8d8;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.site-footer h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0 0 18px;
+}
+
+.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer li {
+    color: #b9c8d8;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.site-footer li a {
+    color: #b9c8d8;
+    text-decoration: none;
+    transition: color .15s ease;
+}
+
+.site-footer li a:hover {
+    color: #ffffff;
+}
+
+.site-footer .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,.15);
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    color: #8ea2b7;
+    font-size: 11px;
+}
+
+@media (max-width: 900px) {
+
+    .site-footer .footer-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .site-footer {
+        padding: 45px 0 20px;
+    }
+
+    .site-footer .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .site-footer .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
     }
 }
 
@@ -548,14 +641,167 @@ footer p {
      FOOTER
 ========================================================= -->
 
-<footer>
+<footer class="site-footer">
 
-    <div class="container">
+    <div class="footer-inner">
 
-        <p>
-            &copy; 2026 Ardent Research Solutions (Pvt.) Ltd.
-            All rights reserved.
-        </p>
+        <div class="footer-grid">
+
+
+            <div>
+
+                <div class="footer-logo">
+                    ARS
+                </div>
+
+                <p>
+
+                    Ardent Research Solutions (Pvt.) Ltd.
+                    is a Pakistan-focused research and advisory
+                    company dedicated to producing independent
+                    research and practical solutions for a
+                    better Pakistan.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Quick Links
+                </h4>
+
+                <ul>
+
+                    <li>
+                        <a href="../about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../index.html#research">
+                            Research Areas
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../index.html#publications">
+                            Publications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../index.html#advisory">
+                            Advisory Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:info@arspakistan.pk">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Research
+                </h4>
+
+                <ul>
+
+                    <li>
+                        <a href="../research-reports/">
+                            Research Reports
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../policy-briefs/">
+                            Policy Briefs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../insights/">
+                            ARS Insights
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../data-briefs/">
+                            Data Briefs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../special-reports/">
+                            Special Reports
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Contact Us
+                </h4>
+
+                <p>
+
+                    48 Nazimuddin Road F-7/4<br>
+                    Islamabad, Pakistan
+
+                </p>
+
+                <p style="margin-top:10px;">
+
+                    info@arspakistan.pk
+
+                </p>
+
+                <p style="margin-top:10px;">
+
+                    +92 345 519 1979
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+
+                &copy; 2026 Ardent Research Solutions
+                (Pvt.) Ltd. All rights reserved.
+
+            </span>
+
+            <span>
+
+                Privacy Policy
+                &nbsp; | &nbsp;
+                Terms of Use
+
+            </span>
+
+        </div>
 
     </div>
 
