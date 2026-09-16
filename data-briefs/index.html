@@ -145,6 +145,21 @@
             margin-bottom: 20px;
         }
 
+        .data-card p.empty-note {
+            margin-bottom: 0;
+        }
+
+        .data-card p.empty-note a {
+            color: #0f3557;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(15, 53, 87, 0.35);
+        }
+
+        .data-card p.empty-note a:hover {
+            border-bottom-color: #0f3557;
+        }
+
         .buttons {
             display: flex;
             flex-wrap: wrap;
@@ -258,46 +273,18 @@
 
 <main class="container">
 
-    <h2 class="section-title">
-        Featured Data Briefs
-    </h2>
-
-
     <article class="data-card">
 
         <div class="category">
-            Data & Analysis
+            Data &amp; Analysis
         </div>
 
-        <h2>
-            The Battery Race: Can Pakistan Catch the EV Wave?
-        </h2>
-
-        <p>
-            A data driven assessment of Pakistan's National Lithium-Ion Battery
-            Manufacturing Policy 2026–31 and the evolving EV Battery Policy,
-            examining localisation targets, tariff structures and
-            performance-based incentives.
+        <p class="empty-note">
+            Data Briefs will be published here as they are released. In the
+            meantime, our current work is available under
+            <a href="../insights/">ARS Insights</a> and
+            <a href="../policy-briefs/">Policy Briefs</a>.
         </p>
-
-        <div class="buttons">
-
-            <a
-                href="ARS-Pakistan-EV-Battery-Data-Brief-2026.pdf"
-                class="button button-primary"
-                target="_blank"
-                rel="noopener">
-                View Data Brief →
-            </a>
-
-            <a
-                href="ARS-Pakistan-EV-Battery-Data-Brief-2026.pdf"
-                class="button button-secondary"
-                download>
-                Download PDF
-            </a>
-
-        </div>
 
     </article>
 
