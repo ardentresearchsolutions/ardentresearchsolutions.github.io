@@ -1,10 +1,11 @@
 /* =========================================================
    ARS — publication share button
    Progressive enhancement. Any element with class "share-btn"
-   becomes a share control. On phones and tablets it opens the
-   device share sheet (WhatsApp, email, and so on). Elsewhere it
-   opens a small menu with a copy-link option.
-   Loaded by each publication page as: /assets/share.js
+   becomes a share control. On touch devices it opens the device
+   share sheet (WhatsApp, email, and so on); on a desktop it opens
+   a small menu with a copy-link option. The menu is also used if
+   the device share sheet fails for any reason.
+   Loaded by each publication page as: ../assets/share.js
 ========================================================= */
 
 (function () {
@@ -51,8 +52,12 @@
     var css =
         ".share-wrap{position:relative;display:inline-block}" +
 
-        "button.share-btn{font-family:inherit;cursor:pointer;" +
-        "background:#ffffff;line-height:normal}" +
+        /* Match the sibling <a class="button"> elements exactly: a
+           <button> otherwise takes the UA font, line-height and chrome,
+           which made it shorter than Read PDF / Download PDF. */
+        ".share-btn{-webkit-appearance:none;appearance:none;" +
+        "font-family:inherit;font-size:14px;font-weight:bold;line-height:1.6;" +
+        "margin:0;background:transparent;cursor:pointer}" +
 
         ".share-menu{position:absolute;z-index:40;top:calc(100% + 8px);left:0;" +
         "min-width:212px;background:#ffffff;border:1px solid #d7dfe7;" +
@@ -266,6 +271,16 @@
 
     /* ---- wire up each button ---- */
 
+    /* Desktop Chrome and Edge on Windows expose navigator.share, but the
+       system share flow often does nothing there, which leaves the button
+       looking dead. So the share sheet is used only on touch devices, and
+       the menu is the fallback everywhere else — and also if the sheet
+       rejects for any reason other than the person cancelling it. */
+
+    var isTouch =
+        window.matchMedia &&
+        window.matchMedia("(pointer: coarse)").matches;
+
     Array.prototype.forEach.call(buttons, function (btn) {
 
         var url = shareUrl();
@@ -278,23 +293,44 @@
 
         var menu = null;
 
-        btn.addEventListener("click", function () {
-
-            if (navigator.share) {
-
-                navigator.share({ title: title, url: url })
-                    .catch(function () {
-                        /* the person dismissed the sheet — nothing to do */
-                    });
-
-                return;
-            }
+        function openMenu() {
 
             if (!menu) {
                 menu = buildMenu(wrap, btn, url, title);
             }
 
             menu.toggle();
+        }
+
+        btn.addEventListener("click", function () {
+
+            if (!(navigator.share && isTouch)) {
+                openMenu();
+                return;
+            }
+
+            var pending;
+
+            try {
+                pending = navigator.share({ title: title, url: url });
+            } catch (e) {
+                openMenu();
+                return;
+            }
+
+            if (!pending || !pending.then) {
+                return;
+            }
+
+            pending.catch(function (err) {
+
+                if (err && err.name === "AbortError") {
+                    /* the person dismissed the sheet — nothing to do */
+                    return;
+                }
+
+                openMenu();
+            });
         });
     });
 
