@@ -50,7 +50,9 @@
     /* ---- styles, injected once ---- */
 
     var css =
-        ".share-wrap{position:relative;display:inline-block}" +
+        /* inline-flex + stretch so the button is exactly as tall as the
+           Read PDF / Download PDF anchors sharing the flex row */
+        ".share-wrap{position:relative;display:inline-flex;align-items:stretch}" +
 
         /* Match the sibling <a class="button"> elements exactly: a
            <button> otherwise takes the UA font, line-height and chrome,
