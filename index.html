@@ -39,16 +39,59 @@ content="ARS is a research and advisory company providing independent research, 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Ardent Research Solutions (Pvt.) Ltd.",
-  "alternateName": "ARS",
-  "url": "https://arspakistan.pk",
-  "logo": "https://arspakistan.pk/assets/og/ars-default.jpg",
-  "description": "Independent research, policy analysis and advisory services for a better Pakistan.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "PK"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://arspakistan.pk/#organization",
+      "name": "Ardent Research Solutions (Pvt.) Ltd.",
+      "alternateName": [
+        "ARS",
+        "Ardent Research Solutions"
+      ],
+      "url": "https://arspakistan.pk/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://arspakistan.pk/ARS_Zoho_180x180.png",
+        "width": 180,
+        "height": 180
+      },
+      "image": "https://arspakistan.pk/assets/og/ars-default.jpg",
+      "description": "ARS is a research and advisory company providing independent research, policy analysis and strategic intelligence to businesses, institutions and decision makers.",
+      "email": "info@arspakistan.pk",
+      "telephone": "+92-345-5191979",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Islamabad",
+        "addressCountry": "PK"
+      },
+      "areaServed": "PK",
+      "sameAs": [
+        "https://x.com/ARSInsights",
+        "https://www.instagram.com/ardentresearchsolutions/",
+        "https://www.facebook.com/profile.php?id=61594478199010"
+      ],
+      "knowsAbout": [
+        "Economy and public policy",
+        "Governance and institutions",
+        "Business, industry and markets",
+        "Technology and digital economy",
+        "Energy",
+        "Pakistan–China economic relations",
+        "CPEC"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://arspakistan.pk/#website",
+      "name": "Ardent Research Solutions",
+      "alternateName": "ARS",
+      "url": "https://arspakistan.pk/",
+      "publisher": {
+        "@id": "https://arspakistan.pk/#organization"
+      },
+      "inLanguage": "en-GB"
+    }
+  ]
 }
 </script>
 
