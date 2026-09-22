@@ -118,29 +118,40 @@ a {
 .pub-logo {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 13px;
 }
 
 .pub-logo .ars {
     font-family: Georgia, serif;
-    font-size: 42px;
+    font-size: 70px;
     line-height: 1;
-    letter-spacing: .5px;
+    letter-spacing: 0px;
+    color: #ffffff;
 }
 
 .pub-logo .rule {
     width: 1px;
-    height: 32px;
+    height: 50px;
     background: rgba(255,255,255,.35);
 }
 
 .pub-logo .full {
-    font-size: 10px;
-    line-height: 1.3;
+    font-size: 12px;
+    line-height: 1.2;
     font-weight: bold;
-    letter-spacing: 1.2px;
+    letter-spacing: .3px;
     text-transform: uppercase;
-    color: #cfe2f5;
+    color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .pub-logo .ars { font-size: 42px; }
+    .pub-logo .rule { height: 40px; }
+}
+
+@media (max-width: 400px) {
+    .pub-logo .ars { font-size: 38px; }
+    .pub-logo .full { font-size: 10px; }
 }
 
 .pub-header nav {
@@ -422,7 +433,7 @@ a {
         <a class="pub-logo" href="/">
             <div class="ars">ARS</div>
             <div class="rule"></div>
-            <div class="full">Ardent Research<br>Solutions</div>
+            <div class="full">Ardent<br>Research<br>Solutions<br>(Pvt.) Ltd.</div>
         </a>
 
         <nav>
