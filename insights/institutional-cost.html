@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
 <!-- Google tag (gtag.js) -->
@@ -16,7 +16,7 @@
 
 <title>The Institutional Cost of Building a Technology Business | ARS</title>
 
-<meta name="description" content="What building a technology business reveals about Pakistan's institutional fabric, and why the next round of reform must build the market rather than ease entry into it.">
+<meta name="description" content="What building a technology business reveals about Pakistan's institutions, and why reform must now build the market rather than ease entry into it.">
 <link rel="canonical" href="https://arspakistan.pk/insights/institutional-cost.html">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
@@ -28,7 +28,7 @@
 <meta property="og:locale"          content="en_GB">
 <meta property="og:url"             content="https://arspakistan.pk/insights/institutional-cost.html">
 <meta property="og:title"           content="The Institutional Cost of Building a Technology Business">
-<meta property="og:description"     content="What building a technology business reveals about Pakistan's institutional fabric, and why the next round of reform must build the market rather than ease entry into it.">
+<meta property="og:description"     content="What building a technology business reveals about Pakistan's institutions, and why reform must now build the market rather than ease entry into it.">
 <meta property="og:image"           content="https://arspakistan.pk/assets/og/institutional-cost.jpg">
 <meta property="og:image:secure_url" content="https://arspakistan.pk/assets/og/institutional-cost.jpg">
 <meta property="og:image:type"      content="image/jpeg">
@@ -45,7 +45,7 @@
 
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:title"       content="The Institutional Cost of Building a Technology Business">
-<meta name="twitter:description" content="What building a technology business reveals about Pakistan's institutional fabric, and why the next round of reform must build the market rather than ease entry into it.">
+<meta name="twitter:description" content="What building a technology business reveals about Pakistan's institutions, and why reform must now build the market rather than ease entry into it.">
 <meta name="twitter:image"       content="https://arspakistan.pk/assets/og/institutional-cost.jpg">
 <meta name="twitter:image:alt"   content="ARS Insight: The Institutional Cost of Building a Technology Business">
 
@@ -183,9 +183,15 @@ a {
 
 .pub-header nav {
     display: flex;
-    gap: 22px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 20px;
     font-size: 13px;
     font-weight: 600;
+}
+
+.pub-header nav a[aria-current] {
+    color: #8bc7ff;
 }
 
 .pub-header nav a:hover {
@@ -325,8 +331,14 @@ a {
         font-size: 29px;
     }
 
+    .pub-header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .pub-header nav {
-        display: none;
+        justify-content: flex-start;
+        gap: 6px 16px;
     }
 
 }
@@ -662,6 +674,33 @@ a {
 
 </style>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://arspakistan.pk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "ARS Insights",
+      "item": "https://arspakistan.pk/insights/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "The Institutional Cost of Building a Technology Business",
+      "item": "https://arspakistan.pk/insights/institutional-cost.html"
+    }
+  ]
+}
+</script>
+
 </head>
 
 
@@ -678,10 +717,14 @@ a {
             <div class="full">Ardent<br>Research<br>Solutions<br>(Pvt.) Ltd.</div>
         </a>
 
-        <nav>
+        <nav aria-label="Main">
             <a href="/">Home</a>
+            <a href="/insights/" aria-current="page">Insights</a>
             <a href="/policy-briefs/">Policy Briefs</a>
-            <a href="/insights/">Insights</a>
+            <a href="/data-briefs/">Data Briefs</a>
+            <a href="/research-reports/">Research Reports</a>
+            <a href="/special-reports/">Special Reports</a>
+            <a href="/advisory-board/">Advisory Board</a>
             <a href="/about.html">About</a>
         </nav>
 
@@ -874,19 +917,19 @@ a {
                     </li>
 
                     <li>
-                        <a href="../index.html#research">
+                        <a href="/#research">
                             Research Areas
                         </a>
                     </li>
 
                     <li>
-                        <a href="../index.html#publications">
+                        <a href="/#publications">
                             Publications
                         </a>
                     </li>
 
                     <li>
-                        <a href="../index.html#advisory">
+                        <a href="/#advisory">
                             Advisory Services
                         </a>
                     </li>
