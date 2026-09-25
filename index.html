@@ -828,11 +828,40 @@ section {
 
 }
 
-/* Touch devices swipe the strip directly — no arrows needed */
+/* Touch devices: arrows stay visible (smaller, just inside the
+   edges so they never push the page sideways); swiping still works */
 @media (hover: none), (pointer: coarse) {
 
     .cover-nav {
-        display: none;
+        width: 40px;
+        height: 40px;
+        opacity: .95;
+    }
+
+    .cover-nav svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .cover-nav-prev {
+        left: 4px;
+    }
+
+    .cover-nav-next {
+        right: 4px;
+    }
+
+    /* No sticky blue "hover" after a tap; flash blue on press instead */
+    .cover-nav:hover {
+        background: rgba(255, 255, 255, .92);
+        color: #092b52;
+        box-shadow: 0 4px 18px rgba(9, 43, 82, .16);
+    }
+
+    .cover-nav:active {
+        background: #0874d1;
+        color: #ffffff;
+        box-shadow: 0 8px 24px rgba(8, 116, 209, .34);
     }
 
 }
@@ -848,7 +877,16 @@ section {
     }
 
     .cover-nav {
-        display: none;
+        width: 38px;
+        height: 38px;
+    }
+
+    .cover-nav-prev {
+        left: 4px;
+    }
+
+    .cover-nav-next {
+        right: 4px;
     }
 
 }
@@ -2339,14 +2377,8 @@ a.news-item.publication-cover:hover h4 {
                 <ul>
 
                     <li>
-                        <a href="research-reports/">
-                            Research Reports
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="policy-briefs/">
-                            Policy Briefs
+                        <a href="data-briefs/">
+                            Data Briefs
                         </a>
                     </li>
 
@@ -2357,14 +2389,20 @@ a.news-item.publication-cover:hover h4 {
                     </li>
 
                     <li>
-                        <a href="data-briefs/">
-                            Data Briefs
+                        <a href="policy-briefs/">
+                            Policy Briefs
                         </a>
                     </li>
 
                     <li>
                         <a href="special-reports/">
                             Special Reports
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="research-reports/">
+                            Research Reports
                         </a>
                     </li>
 
