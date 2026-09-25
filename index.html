@@ -828,11 +828,18 @@ section {
 
 }
 
-/* Touch devices: arrows stay visible (smaller, just inside the
-   edges so they never push the page sideways); swiping still works */
+/* Touch devices: arrows sit as a centred pair BELOW the strip so
+   they never cover a publication cover; swiping still works */
 @media (hover: none), (pointer: coarse) {
 
+    .cover-strip-wrap {
+        padding-bottom: 62px;
+    }
+
     .cover-nav {
+        top: auto;
+        bottom: 8px;
+        transform: none;
         width: 40px;
         height: 40px;
         opacity: .95;
@@ -844,11 +851,19 @@ section {
     }
 
     .cover-nav-prev {
-        left: 4px;
+        left: calc(50% - 50px);
+        right: auto;
     }
 
     .cover-nav-next {
-        right: 4px;
+        right: calc(50% - 50px);
+        left: auto;
+    }
+
+    /* At the start/end the arrow fades rather than vanishing,
+       so the pair stays balanced */
+    .cover-nav[disabled] {
+        opacity: .3;
     }
 
     /* No sticky blue "hover" after a tap; flash blue on press instead */
@@ -879,14 +894,6 @@ section {
     .cover-nav {
         width: 38px;
         height: 38px;
-    }
-
-    .cover-nav-prev {
-        left: 4px;
-    }
-
-    .cover-nav-next {
-        right: 4px;
     }
 
 }
