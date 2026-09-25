@@ -1,0 +1,61 @@
+{
+ "last_x_post": "2026-10-01",
+ "posts": [
+  {
+   "date": "2026-09-25",
+   "img": "2026-09-25-medicine-32pc.jpg",
+   "publication": "Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?",
+   "category": "ARS Data Brief",
+   "x": true,
+   "fact": "ARS Data Brief graphic: medicine prices in Pakistan rose 32% after deregulation in February 2024."
+  },
+  {
+   "date": "2026-09-26",
+   "img": "2026-09-26-less-on-the-plate.jpg",
+   "publication": "Twice the Rupees, Less on the Plate",
+   "category": "ARS Data Brief",
+   "x": true,
+   "fact": "ARS Data Brief chart: per-person monthly consumption in Pakistan fell between HIES 2018-19 and 2024-25 — pulses -26%, rice -19%, milk -10%, eggs -7%, wheat flour -6%."
+  },
+  {
+   "date": "2026-09-27",
+   "img": "2026-09-27-arbitration-quote.jpg",
+   "publication": "The Arbitration Gap: What Pakistan Can Learn from Astana",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight quote card: Legislation without institutional capacity will have limited practical effect."
+  },
+  {
+   "date": "2026-09-28",
+   "img": "2026-09-28-ev-two-wheels.jpg",
+   "publication": "Beyond the Car Factory",
+   "category": "ARS Policy Brief",
+   "x": true,
+   "fact": "ARS Policy Brief graphic: Pakistan's EV mass market is two and three wheels, not cars — 160,000 electric motorcycles vs 12,800 electric four-wheelers."
+  },
+  {
+   "date": "2026-09-29",
+   "img": "2026-09-29-cpec-sez-27.jpg",
+   "publication": "Plug and Play, or Still Plugging In?",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight graphic: only 27 sites can be verified as producing across Pakistan's four priority CPEC Special Economic Zones."
+  },
+  {
+   "date": "2026-09-30",
+   "img": "2026-09-30-energy-constraint.jpg",
+   "publication": "Pakistan as China’s Next Manufacturing Base",
+   "category": "ARS Policy Brief",
+   "x": true,
+   "fact": "ARS Policy Brief chart: industrial electricity costs 13.5-15.7 US cents per kWh in Pakistan against 7.7 cents in China."
+  },
+  {
+   "date": "2026-10-01",
+   "img": "2026-10-01-coverage-vs-use.jpg",
+   "publication": "The Institutional Cost of Building a Technology Business",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight chart: 81% of Pakistanis live under mobile broadband coverage and 68% own a smartphone, but only 29% used the mobile internet in the past year."
+  }
+ ]
+}
