@@ -13,17 +13,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>About ARS | Research &amp; Advisory Company, Pakistan</title>
+<title>Pakistan Governance &amp; Institutions Research | ARS</title>
 
 <meta name="description"
-content="About Ardent Research Solutions: a research and advisory company providing independent research, policy analysis and strategic intelligence on Pakistan.">
+content="Research on governance and institutions in Pakistan: arbitration reform, child marriage and birth registration, EV policy delivery and power regulation.">
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?v=4">
 <link rel="shortcut icon" href="/favicon.ico?v=4">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="canonical" href="https://arspakistan.pk/about.html">
+<link rel="canonical" href="https://arspakistan.pk/research/governance-institutions/">
 
 
 <!-- =====================================================
@@ -33,9 +33,9 @@ content="About Ardent Research Solutions: a research and advisory company provid
 <meta property="og:type"             content="website">
 <meta property="og:site_name"        content="Ardent Research Solutions">
 <meta property="og:locale"           content="en_GB">
-<meta property="og:url"              content="https://arspakistan.pk/about.html">
-<meta property="og:title"            content="About ARS | Research &amp; Advisory Company, Pakistan">
-<meta property="og:description"      content="About Ardent Research Solutions: a research and advisory company providing independent research, policy analysis and strategic intelligence on Pakistan.">
+<meta property="og:url"              content="https://arspakistan.pk/research/governance-institutions/">
+<meta property="og:title"            content="Pakistan Governance &amp; Institutions Research | ARS">
+<meta property="og:description"      content="Research on governance and institutions in Pakistan: arbitration reform, child marriage and birth registration, EV policy delivery and power regulation.">
 <meta property="og:image"            content="https://arspakistan.pk/assets/og/ars-default.jpg">
 <meta property="og:image:secure_url" content="https://arspakistan.pk/assets/og/ars-default.jpg">
 <meta property="og:image:type"       content="image/jpeg">
@@ -44,8 +44,8 @@ content="About Ardent Research Solutions: a research and advisory company provid
 <meta property="og:image:alt"        content="Ardent Research Solutions (Pvt.) Ltd.">
 
 <meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:title"       content="About ARS | Research &amp; Advisory Company, Pakistan">
-<meta name="twitter:description" content="About Ardent Research Solutions: a research and advisory company providing independent research, policy analysis and strategic intelligence on Pakistan.">
+<meta name="twitter:title"       content="Pakistan Governance &amp; Institutions Research | ARS">
+<meta name="twitter:description" content="Research on governance and institutions in Pakistan: arbitration reform, child marriage and birth registration, EV policy delivery and power regulation.">
 <meta name="twitter:image"       content="https://arspakistan.pk/assets/og/ars-default.jpg">
 <meta name="twitter:image:alt"   content="Ardent Research Solutions (Pvt.) Ltd.">
 
@@ -86,29 +86,6 @@ a {
 
 
 /* =========================================================
-   TOP BAR
-========================================================= */
-
-.topbar {
-    background: #06264a;
-    color: white;
-    font-size: 16px;
-    padding: 9px 0;
-}
-
-.topbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.top-links {
-    display: flex;
-    gap: 20px;
-}
-
-
-/* =========================================================
    HEADER / NAVIGATION
 ========================================================= */
 
@@ -125,12 +102,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     gap: 13px;
+    flex-shrink: 0;
 }
 
 .logo-main {
@@ -138,7 +117,6 @@ header {
     font-size: 70px;
     line-height: 1;
     color: #092b52;
-    letter-spacing: 0px;
 }
 
 .logo-divider {
@@ -167,275 +145,396 @@ header {
 .nav-links a {
     color: #172f4b;
     transition: .2s;
+    white-space: nowrap;
 }
 
 .nav-links a:hover {
     color: #1268c4;
 }
 
-
-/* =========================================================
-   MOBILE MENU
-========================================================= */
-
-.mobile-menu {
-    display: none;
-    cursor: pointer;
-    font-size: 30px;
-    color: #092b52;
-    line-height: 1;
-    user-select: none;
-}
-
-.mobile-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 4%;
-    width: 230px;
-    background: #ffffff;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
-    border-top: 3px solid #0874d1;
-    z-index: 1100;
-}
-
-.mobile-dropdown.open {
-    display: block;
-}
-
-.mobile-dropdown a {
-    display: block;
-    padding: 15px 20px;
-    color: #0b2d4d;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.mobile-dropdown a:last-child {
-    border-bottom: none;
-}
-
-.mobile-dropdown a:hover {
-    background: #f2f5f8;
-    color: #0874d1;
+.nav-links a.active {
+    color: #1268c4;
 }
 
 
 /* =========================================================
-   PAGE HEADING (About page hero replacement)
+   PAGE HERO
 ========================================================= */
 
-.page-heading {
-    background: #06264a;
-    color: white;
-    padding: 55px 0;
+.page-hero {
+    background: #f5f7fa;
+    padding: 85px 0 75px;
+    border-bottom: 1px solid #e5e9ee;
+}
+
+.page-hero .container {
     text-align: center;
 }
 
-.page-heading h1 {
-    font-family: Georgia, serif;
-    font-size: 42px;
-    font-weight: 500;
-}
-
-.page-heading p {
-    color: #cddbea;
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-
-/* =========================================================
-   SECTIONS
-========================================================= */
-
-section {
-    padding: 75px 0;
-}
-
-.section-heading {
-    text-align: center;
-    margin-bottom: 45px;
-}
-
-.section-heading .eyebrow {
+.eyebrow {
     color: #0769bf;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
-.section-heading h2 {
+.page-hero h1 {
     font-family: Georgia, serif;
-    font-size: 38px;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: normal;
     color: #092b52;
-}
-
-.section-heading p {
-    max-width: 680px;
-    margin: 12px auto 0;
-    color: #657383;
-}
-
-
-/* =========================================================
-   ABOUT ARS
-========================================================= */
-
-.about {
-    background: #f7f9fb;
-}
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap: 60px;
-    align-items: start;
-}
-
-.about-intro h2 {
-    font-family: Georgia, serif;
-    font-size: 38px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: #092b52;
-}
-
-.about-intro p {
-    color: #657383;
-    margin-bottom: 25px;
-}
-
-.check-list {
-    list-style: none;
-}
-
-.check-list li {
-    margin: 11px 0;
-    font-size: 14px;
-    color: #314b65;
-}
-
-.check-list li:before {
-    content: "✓";
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 19px;
-    height: 19px;
-    background: #0874d1;
-    color: white;
-    border-radius: 50%;
-    font-size: 11px;
-    margin-right: 10px;
-}
-
-.founder {
-    background: white;
-    border: 1px solid #e1e6eb;
-    padding: 35px;
-}
-
-.founder-label {
-    color: #0874d1;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    margin-bottom: 8px;
-}
-
-.founder h3 {
-    font-family: Georgia, serif;
-    color: #092b52;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 4px;
-}
-
-.founder-title {
-    color: #0874d1;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 22px;
-}
-
-.founder p {
-    color: #657383;
-    font-size: 15px;
-    line-height: 1.8;
     margin-bottom: 18px;
 }
 
-
-/* =========================================================
-   FOOTER
-========================================================= */
-
-footer {
-    background: #031d38;
-    color: white;
-    padding: 55px 0 20px;
+.page-hero p {
+    max-width: 760px;
+    margin: auto;
+    color: #5a6c80;
+    font-size: 17px;
 }
 
-.footer-grid {
+
+/* =========================================================
+   RESEARCH AREA
+========================================================= */
+
+.area-section {
+    padding: 60px 0 100px;
+    background: #ffffff;
+}
+
+.area-inner {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.crumb {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #5e7084;
+    margin-bottom: 34px;
+}
+
+.crumb a:hover {
+    color: #0874d1;
+}
+
+.area-heading {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: #092b52;
+    margin-bottom: 26px;
+}
+
+.pub-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 34px;
+    align-items: start;
+    padding: 34px 0;
+    border-top: 1px solid #e5e9ee;
+}
+
+.pub-item:last-child {
+    border-bottom: 1px solid #e5e9ee;
+}
+
+.pub-thumb {
+    display: block;
+    border: 1px solid #e0e6ec;
+    box-shadow: 0 6px 20px rgba(9, 43, 82, .12);
+    background: #ffffff;
+}
+
+.pub-thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.pub-item .series {
+    color: #0874d1;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.pub-item h3 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #092b52;
+    margin-bottom: 10px;
+}
+
+.pub-item h3 a:hover {
+    color: #0874d1;
+}
+
+.pub-item p {
+    color: #536b84;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.pub-item .meta {
+    color: #5e7084;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.pub-item .more {
+    color: #0874d1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pub-item .more:hover {
+    text-decoration: underline;
+}
+
+.other-areas {
+    margin-top: 70px;
+}
+
+.other-areas h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #092b52;
+    margin-bottom: 20px;
+}
+
+.other-areas ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.other-areas a {
+    display: block;
+    height: 100%;
+    border: 1px solid #e1e6eb;
+    padding: 16px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #092b52;
+    transition: .2s;
+}
+
+.other-areas a:hover {
+    border-color: #0874d1;
+    color: #0874d1;
+}
+
+@media (max-width: 900px) {
+
+    .other-areas ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .area-section {
+        padding: 44px 0 70px;
+    }
+
+    .pub-item {
+        grid-template-columns: 96px 1fr;
+        gap: 18px;
+        padding: 26px 0;
+    }
+
+    .pub-item h3 {
+        font-size: 20px;
+    }
+
+    .pub-item p {
+        font-size: 15px;
+    }
+
+    .other-areas ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* =========================================================
+   MOBILE / TABLET
+   Header stacks: logo on its own row, nav wrapping below,
+   so the links never collide with the logo.
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        min-height: 0;
+        padding: 16px 0 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .nav-links {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .logo-main {
+        font-size: 52px;
+    }
+
+    .logo-divider {
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 10px;
+    }
+
+    .page-hero {
+        padding: 60px 0 55px;
+    }
+
+    .page-hero h1 {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .logo {
+        gap: 8px;
+    }
+
+    .logo-main {
+        font-size: 44px;
+    }
+
+    .logo-divider {
+        height: 34px;
+    }
+
+    .logo-text {
+        font-size: 9px;
+    }
+
+    .nav-links {
+        gap: 9px 14px;
+        font-size: 12px;
+    }
+
+    .page-hero h1 {
+        font-size: 34px;
+    }
+
+    .page-hero p {
+        font-size: 15px;
+    }
+
+}
+
+/* =========================================================
+   SITE FOOTER
+========================================================= */
+
+.site-footer {
+    background: #031d38;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 55px 0 20px;
+    margin: 0;
+}
+
+.site-footer .footer-inner {
+    width: 92%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.site-footer .footer-grid {
     display: grid;
     grid-template-columns: 1.4fr 1fr 1fr 1.3fr;
     gap: 45px;
     padding-bottom: 40px;
 }
 
-.footer-logo {
+.site-footer .footer-logo {
     font-family: Georgia, serif;
     font-size: 42px;
+    line-height: 1;
+    color: #ffffff;
     margin-bottom: 12px;
 }
 
-footer p {
+.site-footer p {
     color: #b9c8d8;
     font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
 }
 
-footer h4,
-footer h2.footer-title {
-    margin-bottom: 18px;
-    font-size: 14px;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer li {
-    margin-bottom: 9px;
-    color: #b9c8d8;
-    font-size: 13px;
-}
-
-footer li a {
-    transition: color .15s ease;
-}
-
-footer li a:hover {
+.site-footer h4,
+.site-footer h2.footer-title {
     color: #ffffff;
+    font-size: 14px;
+    margin: 0 0 18px;
 }
 
-footer p a {
+.site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer li {
+    color: #b9c8d8;
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+
+.site-footer li a {
     color: #b9c8d8;
     text-decoration: none;
     transition: color .15s ease;
 }
 
-footer p a:hover {
+.site-footer li a:hover {
     color: #ffffff;
 }
 
-.footer-bottom {
+.site-footer p a {
+    color: #b9c8d8;
+    text-decoration: none;
+    transition: color .15s ease;
+}
+
+.site-footer p a:hover {
+    color: #ffffff;
+}
+
+.site-footer .footer-bottom {
     border-top: 1px solid rgba(255,255,255,.15);
     padding-top: 18px;
     display: flex;
@@ -444,172 +543,27 @@ footer p a:hover {
     font-size: 11px;
 }
 
-
-/* =========================================================
-   MOBILE — TABLET
-========================================================= */
-
 @media (max-width: 900px) {
 
-    .nav-links {
-        display: none;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
-
-    .about-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .directors-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-grid {
+    .site-footer .footer-grid {
         grid-template-columns: repeat(2,1fr);
     }
 }
 
-
-/* =========================================================
-   MOBILE — PHONE
-========================================================= */
-
 @media (max-width: 600px) {
 
-    .top-links {
-        display: none;
+    .site-footer {
+        padding: 45px 0 20px;
     }
 
-    .topbar {
-        font-size: 15px;
-    }
-
-    .logo-main {
-        font-size: 42px;
-    }
-
-    .logo-divider {
-        height: 40px;
-    }
-
-    .page-heading h1 {
-        font-size: 30px;
-    }
-
-    section {
-        padding: 55px 0;
-    }
-
-    .footer-grid {
+    .site-footer .footer-grid {
         grid-template-columns: 1fr;
+        gap: 32px;
     }
 
-    .footer-bottom {
+    .site-footer .footer-bottom {
         flex-direction: column;
         gap: 8px;
-    }
-
-    .founder {
-        padding: 25px;
-    }
-
-    .founder h3 {
-        font-size: 27px;
-    }
-
-}
-
-
-/* =========================================================
-   VERY SMALL PHONES
-========================================================= */
-
-@media (max-width: 400px) {
-
-    .logo-text {
-        font-size: 10px;
-    }
-
-    .logo-main {
-        font-size: 38px;
-    }
-
-    .mobile-dropdown {
-        right: 3%;
-        width: 220px;
-    }
-
-}
-
-
-/* =========================================================
-   ACCESSIBILITY
-========================================================= */
-
-.mobile-menu:focus {
-    outline: 2px solid #0874d1;
-    outline-offset: 4px;
-}
-
-/* =========================================================
-   DIRECTOR BIOGRAPHIES
-========================================================= */
-
-/* Director biography text */
-#about .director-card {
-    scroll-margin-top: 110px;
-}
-
-#about .director-card p {
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 1.6;
-    margin-bottom: 18px;
-}
-
-/* Separation between the two director cards */
-#about .director-card:first-child {
-    margin-bottom: 60px;
-}
-
-#about .director-card + .director-card {
-    margin-top: 0;
-}
-
-/* Photos gated behind a click. Name, title and bio stay
-   directly on this page as the credibility anchor (2 clicks
-   from Home); the photo itself sits one step further in.
-   The gate is sized to its own text, not to the photo. */
-#about .founder-photo-gate {
-    display: inline-block;
-    width: auto;
-    max-width: 100%;
-    padding: 9px 18px;
-    margin: 0 0 18px;
-    background: #f4f7fb;
-    border: 1px solid #e0e6ee;
-    border-radius: 4px;
-}
-
-#about .view-photo-link {
-    color: #0769bf;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    white-space: nowrap;
-}
-
-#about .view-photo-link:hover {
-    text-decoration: underline;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    #about .director-card:first-child {
-        margin-bottom: 45px;
     }
 }
 
@@ -850,82 +804,70 @@ footer p a:hover {
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "AboutPage",
-      "@id": "https://arspakistan.pk/about.html#page",
-      "url": "https://arspakistan.pk/about.html",
-      "name": "About ARS",
-      "inLanguage": "en-GB",
-      "isPartOf": {
-        "@id": "https://arspakistan.pk/#website"
+  "@type": "CollectionPage",
+  "@id": "https://arspakistan.pk/research/governance-institutions/#page",
+  "url": "https://arspakistan.pk/research/governance-institutions/",
+  "name": "Governance & Institutions",
+  "description": "Research on governance and institutions in Pakistan: arbitration reform, child marriage and birth registration, EV policy delivery and power regulation.",
+  "inLanguage": "en-GB",
+  "isPartOf": {
+    "@id": "https://arspakistan.pk/#website"
+  },
+  "publisher": {
+    "@id": "https://arspakistan.pk/#organization"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://arspakistan.pk/"
       },
-      "about": {
-        "@id": "https://arspakistan.pk/#organization"
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Research Areas",
+        "item": "https://arspakistan.pk/research/"
       },
-      "mainEntity": {
-        "@id": "https://arspakistan.pk/#organization"
-      },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://arspakistan.pk/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "About ARS",
-            "item": "https://arspakistan.pk/about.html"
-          }
-        ]
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Governance & Institutions",
+        "item": "https://arspakistan.pk/research/governance-institutions/"
       }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://arspakistan.pk/about.html#reza-khan",
-      "name": "Reza Khan",
-      "jobTitle": "Founder & Director",
-      "worksFor": {
-        "@id": "https://arspakistan.pk/#organization"
+    ]
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://arspakistan.pk/insights/maternal-health-divide.html",
+        "name": "Child Marriage and Pakistan’s Maternal Health Divide"
       },
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "National Defence University, Islamabad"
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://arspakistan.pk/research-reports/assembly-without-industry.html",
+        "name": "Assembly Without Industry: The Gap Between Policy and Production in Pakistan’s Electric Vehicle and Battery Sector"
       },
-      "knowsAbout": [
-        "Public policy",
-        "Economic and institutional analysis",
-        "Governance",
-        "Development"
-      ],
-      "sameAs": [
-        "https://www.linkedin.com/in/reza-khan-a3639818b/"
-      ]
-    },
-    {
-      "@type": "Person",
-      "@id": "https://arspakistan.pk/about.html#rubina-fareed",
-      "name": "Dr. Rubina Fareed",
-      "jobTitle": "Director",
-      "worksFor": {
-        "@id": "https://arspakistan.pk/#organization"
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://arspakistan.pk/special-reports/idle-currents.html",
+        "name": "Idle Currents: Turning Pakistan’s Underused Power into a Global Data Centre Hub"
       },
-      "sameAs": [
-        "https://www.linkedin.com/in/rubina-fareed-abb33343a"
-      ]
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://arspakistan.pk/#organization",
-      "founder": {
-        "@id": "https://arspakistan.pk/about.html#reza-khan"
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://arspakistan.pk/insights/astana-arbitration.html",
+        "name": "The Arbitration Gap: What Pakistan Can Learn from Astana"
       }
-    }
-  ]
+    ]
+  }
 }
 </script>
 
@@ -935,26 +877,9 @@ footer p a:hover {
 <body>
 
 
-<!-- =====================================================
-     TOP BAR
-===================================================== -->
-
-<div class="topbar">
-
-    <div class="container">
-
-        <div>
-            Evidence. Analysis. Solutions for a better Pakistan.
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- =====================================================
+<!-- =========================================================
      HEADER
-===================================================== -->
+========================================================= -->
 
 <header>
 
@@ -978,17 +903,17 @@ footer p a:hover {
         </a>
 
 
-        <!-- DESKTOP NAVIGATION -->
-
         <nav class="nav-links">
 
-            <a href="/">Home</a>
+            <a href="/">
+                Home
+            </a>
 
-            <a href="about.html">
+            <a href="/about.html">
                 About Us
             </a>
 
-            <a href="/#research">
+            <a href="/#research" class="active">
                 Research
             </a>
 
@@ -996,7 +921,7 @@ footer p a:hover {
                 Publications
             </a>
 
-            <a href="advisory-board/">
+            <a href="/advisory-board/">
                 Advisory Board
             </a>
 
@@ -1006,51 +931,6 @@ footer p a:hover {
 
         </nav>
 
-
-        <!-- MOBILE HAMBURGER -->
-
-        <div
-    class="mobile-menu"
-    onclick="toggleMobileMenu()"
-    aria-label="Open menu"
-    role="button"
-    tabindex="0">
-
-            ☰
-
-        </div>
-
-    </div>
-
-
-    <!-- MOBILE DROPDOWN -->
-
-    <div id="mobileDropdown" class="mobile-dropdown">
-
-        <a href="/">
-            Home
-        </a>
-
-        <a href="about.html">
-            About Us
-        </a>
-
-        <a href="/#research">
-            Research
-        </a>
-
-        <a href="/#publications">
-            Publications
-        </a>
-
-        <a href="advisory-board/">
-            Advisory Board
-        </a>
-
-        <a href="/contact/" data-contact-open>
-            Contact
-        </a>
-
     </div>
 
 </header>
@@ -1058,202 +938,208 @@ footer p a:hover {
 <main>
 
 
-<!-- =====================================================
-     PAGE HEADING
-===================================================== -->
+<!-- =========================================================
+     PAGE HERO
+========================================================= -->
 
-<div class="page-heading">
+<section class="page-hero">
 
     <div class="container">
 
-        <h1>About ARS</h1>
+        <div class="eyebrow">
+            Research Area
+        </div>
 
-        <p>Independent research for better decisions.</p>
+        <h1>
+            Governance &amp; Institutions
+        </h1>
+
+        <p>
+            Research on government performance, regulation, public sector reform, accountability and institutions in Pakistan.
+        </p>
 
     </div>
 
-</div>
+</section>
 
 
-<!-- =====================================================
-     ABOUT ARS / DIRECTORS
-===================================================== -->
+<!-- =========================================================
+     PUBLICATIONS IN THIS AREA
+========================================================= -->
 
-<section
-    class="about"
-    id="about">
+<section class="area-section">
 
     <div class="container">
 
-        <div class="about-grid">
+        <div class="area-inner">
 
+            <div class="crumb">
+                <a href="/">Home</a>
+                &nbsp;/&nbsp;
+                <a href="/research/">Research Areas</a>
+                &nbsp;/&nbsp;
+                Governance &amp; Institutions
+            </div>
 
-            <!-- LEFT SIDE -->
+            <h2 class="area-heading">
+                Publications
+            </h2>
 
-            <div class="about-intro">
+            <article class="pub-item">
 
-                <div class="section-heading"
-                     style="text-align:left; margin-bottom:20px;">
+                <a class="pub-thumb" href="/insights/maternal-health-divide.html">
+                    <img src="/assets/publications/maternal-health-divide-540.webp"
+                         width="540" height="763"
+                         decoding="async"
+                         alt="Cover of ARS Insight ARS-IN-2026-005: Child Marriage and Pakistan’s Maternal Health Divide">
+                </a>
 
-                    <div class="eyebrow">
-                        About ARS
+                <div>
+
+                    <div class="series">
+                        ARS Insight
                     </div>
 
-                    <h2>
-                        Independent research for better decisions.
-                    </h2>
+                    <h3>
+                        <a href="/insights/maternal-health-divide.html">Child Marriage and Pakistan’s Maternal Health Divide</a>
+                    </h3>
+
+                    <p>
+                        Maternal deaths are falling, but a safe birth in Pakistan still depends on where a woman lives and how young she married. What the numbers reveal.
+                    </p>
+
+                    <div class="meta">
+                        Dr. Rubina Fareed &nbsp;|&nbsp; <time datetime="2026-09-28">28 September 2026</time> &nbsp;|&nbsp; ARS-IN-2026-005
+                    </div>
+
+                    <a class="more" href="/insights/maternal-health-divide.html">
+                        View Insight &rarr;
+                    </a>
 
                 </div>
 
+            </article>
+            <article class="pub-item">
 
-                <p>
+                <a class="pub-thumb" href="/research-reports/assembly-without-industry.html">
+                    <img src="/assets/publications/assembly-without-industry-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Research Report ARS-RR-2026-001: Assembly Without Industry: The Gap Between Policy and Production in Pakistan’s Electric Vehicle and Battery Sector">
+                </a>
 
-                    Ardent Research Solutions (Pvt.) Ltd.
-                    is a Pakistan-focused research and policy
-                    advisory organisation committed to
-                    producing independent, evidence-based
-                    analysis.
+                <div>
 
-                </p>
+                    <div class="series">
+                        ARS Research Report
+                    </div>
 
+                    <h3>
+                        <a href="/research-reports/assembly-without-industry.html">Assembly Without Industry: The Gap Between Policy and Production in Pakistan’s Electric Vehicle and Battery Sector</a>
+                    </h3>
 
-                <p>
+                    <p>
+                        An ARS Research Report on whether Pakistan&#x27;s policy framework, market, supply chain and mineral base support a Chinese investment in electric vehicle and battery manufacturing, as distinct from assembly. Of six governing instruments, three are notified and none of them governs battery manufacturing; the PAVE subsidy pilot delivered 13% of its target; Pakistan has no commercial cell production; and the investable opportunities today lie in pack assembly, battery management, testing, recycling, charging and battery-grade processing rather than cell manufacturing.
+                    </p>
 
-                    ARS works across public policy, economic
-                    and institutional analysis, governance,
-                    development and strategic intelligence.
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-09-24">24 September 2026</time> &nbsp;|&nbsp; ARS-RR-2026-001
+                    </div>
 
-                </p>
+                    <a class="more" href="/research-reports/assembly-without-industry.html">
+                        View Research Report &rarr;
+                    </a>
 
+                </div>
 
-                <ul class="check-list">
+            </article>
+            <article class="pub-item">
 
-                    <li>
-                        Independent and non-partisan
-                    </li>
+                <a class="pub-thumb" href="/special-reports/idle-currents.html">
+                    <img src="/assets/publications/idle-currents-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Special Report ARS-SR-2026-001: Idle Currents — Turning Pakistan’s Underused Power into a Global Data Centre Hub">
+                </a>
 
-                    <li>
-                        Evidence based and data-driven
-                    </li>
+                <div>
 
-                    <li>
-                        Policy relevant and actionable
-                    </li>
+                    <div class="series">
+                        ARS Special Report
+                    </div>
 
-                    <li>
-                        Local expertise, global standards
-                    </li>
+                    <h3>
+                        <a href="/special-reports/idle-currents.html">Idle Currents: Turning Pakistan’s Underused Power into a Global Data Centre Hub</a>
+                    </h3>
 
-                    <li>
-                        Research focused on Pakistan
-                    </li>
+                    <p>
+                        This report examines whether Pakistan can turn its underused electricity generating capacity into a foundation for a globally competitive data centre industry.
+                    </p>
 
+                    <div class="meta">
+                        Reza Khan and Barrister Waqas Aziz Qureshi &nbsp;|&nbsp; <time datetime="2026-09-17">17 September 2026</time> &nbsp;|&nbsp; ARS-SR-2026-001
+                    </div>
+
+                    <a class="more" href="/special-reports/idle-currents.html">
+                        View Report &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/insights/astana-arbitration.html">
+                    <img src="/assets/publications/the-arbitration-gap-astana-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Insight ARS-IN-2026-003: The Arbitration Gap: What Pakistan Can Learn from Astana">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Insight
+                    </div>
+
+                    <h3>
+                        <a href="/insights/astana-arbitration.html">The Arbitration Gap: What Pakistan Can Learn from Astana</a>
+                    </h3>
+
+                    <p>
+                        Why Pakistan still lacks a credible international arbitration seat, and what can be drawn from Astana&#x27;s rise as a regional dispute resolution hub.
+                    </p>
+
+                    <div class="meta">
+                        Dr. Sanaullah Aman and Reza Khan &nbsp;|&nbsp; <time datetime="2026-08-27">27 August 2026</time> &nbsp;|&nbsp; ARS-IN-2026-003
+                    </div>
+
+                    <a class="more" href="/insights/astana-arbitration.html">
+                        View Insight &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+
+            <div class="other-areas">
+
+                <h2>
+                    Other research areas
+                </h2>
+
+                <ul>
+                <li><a href="/research/economy-public-policy/">Economy &amp; Public Policy</a></li>
+                <li><a href="/research/business-industry-markets/">Business, Industry &amp; Markets</a></li>
+                <li><a href="/research/society-human-development/">Society &amp; Human Development</a></li>
+                <li><a href="/research/cities-infrastructure-climate/">Cities, Infrastructure &amp; Climate</a></li>
+                <li><a href="/research/technology-digital-economy/">Technology &amp; Digital Economy</a></li>
                 </ul>
 
             </div>
-
-
-            <!-- DIRECTORS -->
-
-            <div class="directors-grid">
-
-                <!-- FOUNDER & DIRECTOR -->
-
-                <div class="director-card" id="reza-khan">
-
-                    <div class="founder-photo-gate">
-                        <a href="profile.html" class="view-photo-link">
-                            View photo &rarr;
-                        </a>
-                    </div>
-
-                    <div class="director-label">
-                        Founder & Director
-                    </div>
-
-                    <h3>
-                        Reza Khan
-                    </h3>
-
-                 
-                    <p>
-                        Reza Khan is the founder and director of
-                        Ardent Research Solutions (Pvt.) Ltd.,
-                        an independent research and advisory
-                        organisation focused on Pakistan. He holds
-                        an M.Phil. in Government and Public Policy
-                        from the National Defence University,
-                        Islamabad and an MBA in Finance.
-                    </p>
-
-                    <p>
-                        His areas of interest include public policy,
-                        economic and institutional analysis,
-                        governance, development, and evidence based
-                        policy analysis. His work focuses on examining
-                        Pakistan's policy and institutional challenges
-                        through research, analysis, and practical
-                        policy solutions.
-                    </p>
-
-                    <p>
-                        At ARS, he leads research and advisory
-                        initiatives aimed at generating rigorous,
-                        independent analysis and translating evidence
-                        into practical insights for businesses,
-                        institutions, and decision makers.
-                    </p>
-
-                </div>
-
-
-                <!-- DIRECTOR -->
-
-                <div class="director-card" id="rubina-fareed">
-
-                    <div class="founder-photo-gate">
-                        <a href="profile2.html" class="view-photo-link">
-                            View photo &rarr;
-                        </a>
-                    </div>
-
-                    <div class="director-label">
-                        Director
-                    </div>
-
-                    <h3>
-                        Dr. Rubina Fareed
-                    </h3>
-
-                
-                    <p>
-                        Dr. Rubina Fareed is a medical practitioner and
-                        graduate of Khyber Medical College, with extensive
-                        experience spanning women's health, human rights,
-                        and community development. She has served in leadership
-                        and advisory roles focused on protecting the rights
-                        and welfare of women and children, including work
-                        with the National Commission on the Rights of Child.
-                    </p>
-
-                    <p>
-                        Her work combines medical expertise with a longstanding
-                        commitment to women's empowerment, health awareness,
-                        and social welfare. She has received the <strong>National
-                        Human Rights Award</strong> and an <strong>Achievement Award</strong> from the
-                        Ministry of Human Rights, as well as the <strong>Mohtarma Fatima Jinnah
-                        Gold Medal</strong> for her contributions to human rights and
-                        community service.
-                    </p>
-                   
-                         <p>
-                        At ARS, she contributes to research and advisory initiatives that bring together institutional experience, evidence-based analysis, and practical perspectives to support better decision-making across businesses, organisations, and public sector institutions.
-
-                    </p>
-                </div>
-
-            </div>
-
 
         </div>
 
@@ -1261,16 +1147,12 @@ footer p a:hover {
 
 </section>
 
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
 </main>
 
-<footer>
 
-    <div class="container">
+<footer class="site-footer">
+
+    <div class="footer-inner">
 
         <div class="footer-grid">
 
@@ -1303,7 +1185,7 @@ footer p a:hover {
                 <ul>
 
                     <li>
-                        <a href="about.html">
+                        <a href="/about.html">
                             About Us
                         </a>
                     </li>
@@ -1346,31 +1228,31 @@ footer p a:hover {
                 <ul>
 
                     <li>
-                        <a href="data-briefs/">
+                        <a href="/data-briefs/">
                             Data Briefs
                         </a>
                     </li>
 
                     <li>
-                        <a href="insights/">
+                        <a href="/insights/">
                             ARS Insights
                         </a>
                     </li>
 
                     <li>
-                        <a href="policy-briefs/">
+                        <a href="/policy-briefs/">
                             Policy Briefs
                         </a>
                     </li>
 
                     <li>
-                        <a href="special-reports/">
+                        <a href="/special-reports/">
                             Special Reports
                         </a>
                     </li>
 
                     <li>
-                        <a href="research-reports/">
+                        <a href="/research-reports/">
                             Research Reports
                         </a>
                     </li>
@@ -1432,18 +1314,16 @@ footer p a:hover {
 
             <span>
 
-                © 2026 Ardent Research Solutions
+                &copy; 2026 Ardent Research Solutions
                 (Pvt.) Ltd. All rights reserved.
 
             </span>
 
             <span>
 
-                <a class="footer-legal" href="privacy/">Privacy Policy</a>
+                <a class="footer-legal" href="/privacy/">Privacy Policy</a>
                 &nbsp; | &nbsp;
-                <a class="footer-legal" href="terms/">Terms of Use</a>
-                &nbsp; | &nbsp;
-                <a class="footer-legal" href="corporate/">Corporate Information</a>
+                <a class="footer-legal" href="/terms/">Terms of Use</a>
 
             </span>
 
@@ -1453,58 +1333,6 @@ footer p a:hover {
 
 </footer>
 
-
-<!-- =====================================================
-     MOBILE MENU JAVASCRIPT
-===================================================== -->
-
-<script>
-
-function toggleMobileMenu() {
-
-    const menu =
-        document.getElementById("mobileDropdown");
-
-    menu.classList.toggle("open");
-
-}
-
-
-/* Close menu after selecting a link */
-
-document
-    .querySelectorAll("#mobileDropdown a")
-    .forEach(function(link) {
-
-        link.addEventListener("click", function() {
-
-            document
-                .getElementById("mobileDropdown")
-                .classList.remove("open");
-
-        });
-
-    });
-
-
-/* Allow keyboard activation */
-
-document
-    .querySelector(".mobile-menu")
-    .addEventListener("keydown", function(event) {
-
-        if (event.key === "Enter" ||
-            event.key === " ") {
-
-            event.preventDefault();
-
-            toggleMobileMenu();
-
-        }
-
-    });
-
-</script>
 
 
 <!-- =====================================================

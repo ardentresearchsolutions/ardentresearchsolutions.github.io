@@ -13,4 +13,15 @@
 
 - [About ARS](https://arspakistan.pk/about.html): founder, directors and mission
 - [Advisory Board](https://arspakistan.pk/advisory-board/)
+- [Contact](https://arspakistan.pk/contact/): office address, phone and enquiry form
 - Contact: info@arspakistan.pk
+
+## Research areas
+
+- [Research Areas](https://arspakistan.pk/research/): the six areas ARS works in
+- [Economy & Public Policy](https://arspakistan.pk/research/economy-public-policy/): macroeconomy, fiscal and monetary policy, taxation, debt, inflation, trade and employment
+- [Business, Industry & Markets](https://arspakistan.pk/research/business-industry-markets/): industry, SMEs, investment, trade, competitiveness, consumer markets and financial services
+- [Governance & Institutions](https://arspakistan.pk/research/governance-institutions/): government performance, regulation, public sector reform, accountability and institutions
+- [Society & Human Development](https://arspakistan.pk/research/society-human-development/): education, health, employment, demographics, poverty, inequality and social mobility
+- [Cities, Infrastructure & Climate](https://arspakistan.pk/research/cities-infrastructure-climate/): urbanisation, housing, transport, energy, water, infrastructure and climate change
+- [Technology & Digital Economy](https://arspakistan.pk/research/technology-digital-economy/): AI, fintech, digitalisation, digital economy and technology policy

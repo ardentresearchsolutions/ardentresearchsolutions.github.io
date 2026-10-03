@@ -13,17 +13,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Advisory Board | Ardent Research Solutions</title>
+<title>Pakistan Business, Industry &amp; Markets Research | ARS</title>
 
 <meta name="description"
-content="Meet the ARS Advisory Board: senior experts in medicine, arbitration and dispute resolution guiding independent research on Pakistan's key issues.">
+content="Research on Pakistan&#x27;s industry and markets: electric vehicles and batteries, China+1 manufacturing, CPEC zones, medicine prices and tech business.">
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=4">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png?v=4">
 <link rel="shortcut icon" href="/favicon.ico?v=4">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="canonical" href="https://arspakistan.pk/advisory-board/">
+<link rel="canonical" href="https://arspakistan.pk/research/business-industry-markets/">
 
 
 <!-- =====================================================
@@ -33,9 +33,9 @@ content="Meet the ARS Advisory Board: senior experts in medicine, arbitration an
 <meta property="og:type"             content="website">
 <meta property="og:site_name"        content="Ardent Research Solutions">
 <meta property="og:locale"           content="en_GB">
-<meta property="og:url"              content="https://arspakistan.pk/advisory-board/">
-<meta property="og:title"            content="Advisory Board | Ardent Research Solutions">
-<meta property="og:description"      content="Meet the ARS Advisory Board: senior experts in medicine, arbitration and dispute resolution guiding independent research on Pakistan's key issues.">
+<meta property="og:url"              content="https://arspakistan.pk/research/business-industry-markets/">
+<meta property="og:title"            content="Pakistan Business, Industry &amp; Markets Research | ARS">
+<meta property="og:description"      content="Research on Pakistan&#x27;s industry and markets: electric vehicles and batteries, China+1 manufacturing, CPEC zones, medicine prices and tech business.">
 <meta property="og:image"            content="https://arspakistan.pk/assets/og/ars-default.jpg">
 <meta property="og:image:secure_url" content="https://arspakistan.pk/assets/og/ars-default.jpg">
 <meta property="og:image:type"       content="image/jpeg">
@@ -44,8 +44,8 @@ content="Meet the ARS Advisory Board: senior experts in medicine, arbitration an
 <meta property="og:image:alt"        content="Ardent Research Solutions (Pvt.) Ltd.">
 
 <meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:title"       content="Advisory Board | Ardent Research Solutions">
-<meta name="twitter:description" content="Meet the ARS Advisory Board: senior experts in medicine, arbitration and dispute resolution guiding independent research on Pakistan's key issues.">
+<meta name="twitter:title"       content="Pakistan Business, Industry &amp; Markets Research | ARS">
+<meta name="twitter:description" content="Research on Pakistan&#x27;s industry and markets: electric vehicles and batteries, China+1 manufacturing, CPEC zones, medicine prices and tech business.">
 <meta name="twitter:image"       content="https://arspakistan.pk/assets/og/ars-default.jpg">
 <meta name="twitter:image:alt"   content="Ardent Research Solutions (Pvt.) Ltd.">
 
@@ -197,88 +197,177 @@ header {
 
 
 /* =========================================================
-   ADVISOR SECTION
+   RESEARCH AREA
 ========================================================= */
 
-.advisory-section {
-    padding: 80px 0 100px;
+.area-section {
+    padding: 60px 0 100px;
     background: #ffffff;
 }
 
-.advisor-card {
-    scroll-margin-top: 110px;
+.area-inner {
     max-width: 1050px;
     margin: auto;
-    background: #ffffff;
 }
 
-/* Photo gated behind a click. Name, role and bio stay on this
-   page as the credibility anchor; the photo sits one step in.
-   The gate is sized to its own text, not to the photo. */
-.photo-gate {
-    display: inline-block;
-    padding: 9px 18px;
-    margin-bottom: 22px;
-    background: #f4f7fb;
-    border: 1px solid #e0e6ee;
-    border-radius: 4px;
-}
-
-.photo-gate a {
-    color: #0769bf;
+.crumb {
+    font-size: 12px;
     font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    white-space: nowrap;
-}
-
-.photo-gate a:hover {
-    text-decoration: underline;
-}
-
-.advisor-info .role {
-    color: #0874d1;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    color: #5e7084;
+    margin-bottom: 34px;
 }
 
-.advisor-info h2 {
+.crumb a:hover {
+    color: #0874d1;
+}
+
+.area-heading {
     font-family: Georgia, serif;
-    font-size: 34px;
+    font-size: 28px;
+    font-weight: normal;
     color: #092b52;
-    line-height: 1.25;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
-.advisor-bio p {
-    color: #536b84;
-    font-size: 16px;
-    line-height: 1.8;
-    margin-bottom: 20px;
-
-    /* JUSTIFIED TEXT */
-    text-align: justify;
-}
-
-.advisor-bio p:last-child {
-    margin-bottom: 0;
-}
-
-.advisor-card + .advisor-card {
-    margin-top: 70px;
-    padding-top: 70px;
+.pub-item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 34px;
+    align-items: start;
+    padding: 34px 0;
     border-top: 1px solid #e5e9ee;
 }
 
+.pub-item:last-child {
+    border-bottom: 1px solid #e5e9ee;
+}
 
-/* =========================================================
-   FOOTER
-========================================================= */
+.pub-thumb {
+    display: block;
+    border: 1px solid #e0e6ec;
+    box-shadow: 0 6px 20px rgba(9, 43, 82, .12);
+    background: #ffffff;
+}
 
+.pub-thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
+.pub-item .series {
+    color: #0874d1;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.pub-item h3 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #092b52;
+    margin-bottom: 10px;
+}
+
+.pub-item h3 a:hover {
+    color: #0874d1;
+}
+
+.pub-item p {
+    color: #536b84;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.pub-item .meta {
+    color: #5e7084;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.pub-item .more {
+    color: #0874d1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pub-item .more:hover {
+    text-decoration: underline;
+}
+
+.other-areas {
+    margin-top: 70px;
+}
+
+.other-areas h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #092b52;
+    margin-bottom: 20px;
+}
+
+.other-areas ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.other-areas a {
+    display: block;
+    height: 100%;
+    border: 1px solid #e1e6eb;
+    padding: 16px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #092b52;
+    transition: .2s;
+}
+
+.other-areas a:hover {
+    border-color: #0874d1;
+    color: #0874d1;
+}
+
+@media (max-width: 900px) {
+
+    .other-areas ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .area-section {
+        padding: 44px 0 70px;
+    }
+
+    .pub-item {
+        grid-template-columns: 96px 1fr;
+        gap: 18px;
+        padding: 26px 0;
+    }
+
+    .pub-item h3 {
+        font-size: 20px;
+    }
+
+    .pub-item p {
+        font-size: 15px;
+    }
+
+    .other-areas ul {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 /* =========================================================
@@ -330,19 +419,7 @@ header {
         font-size: 38px;
     }
 
-    .advisor-card {
-        max-width: 650px;
-    }
-
-    .advisor-info h2 {
-        font-size: 30px;
-    }
-
-    .advisor-bio p {
-        text-align: justify;
-    }
 }
-
 
 @media (max-width: 600px) {
 
@@ -375,21 +452,7 @@ header {
         font-size: 15px;
     }
 
-    .advisory-section {
-        padding: 55px 0 70px;
-    }
-
-    .advisor-info h2 {
-        font-size: 27px;
-    }
-
-    .advisor-bio p {
-        font-size: 15px;
-        line-height: 1.75;
-        text-align: left;
-    }
 }
-
 
 /* =========================================================
    SITE FOOTER
@@ -741,75 +804,88 @@ header {
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "@id": "https://arspakistan.pk/advisory-board/#page",
-      "url": "https://arspakistan.pk/advisory-board/",
-      "name": "Advisory Board",
-      "inLanguage": "en-GB",
-      "isPartOf": {
-        "@id": "https://arspakistan.pk/#website"
+  "@type": "CollectionPage",
+  "@id": "https://arspakistan.pk/research/business-industry-markets/#page",
+  "url": "https://arspakistan.pk/research/business-industry-markets/",
+  "name": "Business, Industry & Markets",
+  "description": "Research on Pakistan's industry and markets: electric vehicles and batteries, China+1 manufacturing, CPEC zones, medicine prices and tech business.",
+  "inLanguage": "en-GB",
+  "isPartOf": {
+    "@id": "https://arspakistan.pk/#website"
+  },
+  "publisher": {
+    "@id": "https://arspakistan.pk/#organization"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://arspakistan.pk/"
       },
-      "about": {
-        "@id": "https://arspakistan.pk/#organization"
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Research Areas",
+        "item": "https://arspakistan.pk/research/"
       },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://arspakistan.pk/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Advisory Board",
-            "item": "https://arspakistan.pk/advisory-board/"
-          }
-        ]
-      },
-      "mainEntity": [
-        {
-          "@id": "https://arspakistan.pk/advisory-board/#muhammad-hafizullah"
-        },
-        {
-          "@id": "https://arspakistan.pk/advisory-board/#sanaullah-aman"
-        }
-      ]
-    },
-    {
-      "@type": "Person",
-      "@id": "https://arspakistan.pk/advisory-board/#muhammad-hafizullah",
-      "name": "Muhammad Hafizullah",
-      "honorificPrefix": "Prof. Dr.",
-      "jobTitle": "Advisory Board Member",
-      "affiliation": {
-        "@id": "https://arspakistan.pk/#organization"
-      },
-      "description": "Pakistani cardiologist, academic and institutional leader; former Vice Chancellor of Khyber Medical University and former Chief Executive of Lady Reading Hospital, Peshawar.",
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "Khyber Medical College"
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Business, Industry & Markets",
+        "item": "https://arspakistan.pk/research/business-industry-markets/"
       }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://arspakistan.pk/advisory-board/#sanaullah-aman",
-      "name": "Sanaullah Aman",
-      "honorificPrefix": "Dr. Engr.",
-      "jobTitle": "Advisory Board Member",
-      "affiliation": {
-        "@id": "https://arspakistan.pk/#organization"
+    ]
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://arspakistan.pk/research-reports/assembly-without-industry.html",
+        "name": "Assembly Without Industry: The Gap Between Policy and Production in Pakistan’s Electric Vehicle and Battery Sector"
       },
-      "description": "Dispute resolution professional, academic and institutional leader; former Member (Engineering) at the Capital Development Authority and Professor of Management.",
-      "sameAs": [
-        "https://www.linkedin.com/in/dr-sanaullah-aman-3baaa4b6/"
-      ]
-    }
-  ]
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://arspakistan.pk/data-briefs/medicine-deregulation.html",
+        "name": "Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://arspakistan.pk/insights/institutional-cost.html",
+        "name": "The Institutional Cost of Building a Technology Business"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "url": "https://arspakistan.pk/policy-briefs/pakistan-china-manufacturing.html",
+        "name": "Pakistan as China’s Next Manufacturing Base"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "url": "https://arspakistan.pk/policy-briefs/pakistan-ev-transition.html",
+        "name": "Beyond the Car Factory: Where Pakistan’s EV Opportunity Really Lies"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "url": "https://arspakistan.pk/insights/cpec-sez-audit.html",
+        "name": "Plug and Play, or Still Plugging In?"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "url": "https://arspakistan.pk/insights/rmb-settlement.html",
+        "name": "Beyond the Dollar: Can Pakistan Trade More in Yuan?"
+      }
+    ]
+  }
 }
 </script>
 
@@ -851,11 +927,11 @@ header {
                 Home
             </a>
 
-            <a href="../about.html">
+            <a href="/about.html">
                 About Us
             </a>
 
-            <a href="/#research">
+            <a href="/#research" class="active">
                 Research
             </a>
 
@@ -863,7 +939,7 @@ header {
                 Publications
             </a>
 
-            <a href="/advisory-board/" class="active">
+            <a href="/advisory-board/">
                 Advisory Board
             </a>
 
@@ -880,7 +956,6 @@ header {
 <main>
 
 
-
 <!-- =========================================================
      PAGE HERO
 ========================================================= -->
@@ -890,16 +965,15 @@ header {
     <div class="container">
 
         <div class="eyebrow">
-            ARDENT RESEARCH SOLUTIONS
+            Research Area
         </div>
 
         <h1>
-            Advisory Board
+            Business, Industry &amp; Markets
         </h1>
 
         <p>
-            Distinguished professionals providing expertise,
-            perspective and strategic guidance to Ardent Research Solutions.
+            Research on Pakistan&#x27;s industry, SMEs, investment, trade, competitiveness, consumer markets and financial services.
         </p>
 
     </div>
@@ -907,120 +981,286 @@ header {
 </section>
 
 
-
 <!-- =========================================================
-     ADVISOR
+     PUBLICATIONS IN THIS AREA
 ========================================================= -->
 
-<section class="advisory-section">
+<section class="area-section">
 
     <div class="container">
 
-        <div class="advisor-card" id="muhammad-hafizullah">
+        <div class="area-inner">
 
-            <!-- ADVISOR INFORMATION -->
-
-            <div class="advisor-info">
-
-                <div class="photo-gate">
-                    <a href="../profile4.html">
-                        View photo &rarr;
-                    </a>
-                </div>
-
-                <div class="role">
-                    Advisory Board Member
-                </div>
-
-                <h2>
-                    Prof. Dr. Muhammad Hafizullah
-                </h2>
-
-
-                <div class="advisor-bio">
-
-                    <p>
-                        Prof. Dr. Muhammad Hafizullah is a distinguished Pakistani cardiologist, academic and institutional leader whose career spans clinical medicine, medical education, research governance and the administration of major public health institutions.
-                    </p>
-
-                    <p>
-                        He has served as <strong>Vice Chancellor</strong> of Khyber Medical University, Peshawar, and as <strong>Chief Executive</strong> of Lady Reading Hospital, where he also headed the Department of Cardiology. He served as <strong>Vice Dean</strong> for Research at the Postgraduate Medical Institute, Peshawar. He led the establishment of the Peshawar Institute of Cardiology as its pioneer Project Director and served two terms as <strong>Chairman</strong> of its Board of Governors. He was <strong>Governor</strong> of the Pakistan Chapter of the American College of Cardiology from 2020 to 2023. He serves on the ACC's Credentialing Committee and on the Steering Committee of its Assembly of International Governors, on which he first served from 2020 to 2023 and again since 2024.
-                    </p>
-
-                    <p>
-                        He was <strong>Editor in Chief</strong> of the Journal of Postgraduate Medical Institute from 1993 to 2016, and of the Pakistan Heart Journal, the official journal of the Pakistan Cardiac Society, from 2010 to 2018. He is the author of more than 350 scientific articles and abstracts published in national and international journals.
-                    </p>
-
-                    <p>
-                        Through the Pakistan Cardiac Society, he has contributed to national clinical practice guidelines on thrombolysis, acute coronary syndrome and ST elevation myocardial infarction, and has chaired both its committee on stable angina and its Council on Preventive Cardiology. He was a member of the <strong>Executive Council of the Pakistan Medical and Dental Council</strong> and chaired its committee that developed national guidelines for research ethics committees.
-                    </p>
-
-                    <p>
-                        Prof. Hafizullah obtained his MBBS from Khyber Medical College in 1979, securing first position in his class and receiving the <strong>President of Pakistan Award</strong> along with a foreign scholarship awarded to the best graduates. He holds <strong>MRCP (UK)</strong>, <strong>FRCP (Edinburgh)</strong>, <strong>FRCP (Glasgow)</strong> and <strong>FCPS</strong>, and is a Fellow of the <strong>American College of Cardiology (FACC)</strong>, the <strong>European Society of Cardiology (FESC)</strong> and the <strong>Society for Cardiovascular Angiography and Interventions (FSCAI)</strong>.
-                    </p>
-
-                    <p>
-                        Beyond medicine, he has written more than 450 newspaper columns in English and Urdu on public health and social issues, and is the author of twelve books in English and five in Urdu on preventive cardiology and social subjects.
-                    </p>
-
-                </div>
-
+            <div class="crumb">
+                <a href="/">Home</a>
+                &nbsp;/&nbsp;
+                <a href="/research/">Research Areas</a>
+                &nbsp;/&nbsp;
+                Business, Industry &amp; Markets
             </div>
 
-        </div>
+            <h2 class="area-heading">
+                Publications
+            </h2>
 
+            <article class="pub-item">
 
-        <div class="advisor-card" id="sanaullah-aman">
+                <a class="pub-thumb" href="/research-reports/assembly-without-industry.html">
+                    <img src="/assets/publications/assembly-without-industry-540.webp"
+                         width="540" height="763"
+                         decoding="async"
+                         alt="Cover of ARS Research Report ARS-RR-2026-001: Assembly Without Industry: The Gap Between Policy and Production in Pakistan’s Electric Vehicle and Battery Sector">
+                </a>
 
-            <!-- ADVISOR INFORMATION -->
+                <div>
 
-            <div class="advisor-info">
+                    <div class="series">
+                        ARS Research Report
+                    </div>
 
-                <div class="photo-gate">
-                    <a href="../profile3.html">
-                        View photo &rarr;
+                    <h3>
+                        <a href="/research-reports/assembly-without-industry.html">Assembly Without Industry: The Gap Between Policy and Production in Pakistan’s Electric Vehicle and Battery Sector</a>
+                    </h3>
+
+                    <p>
+                        An ARS Research Report on whether Pakistan&#x27;s policy framework, market, supply chain and mineral base support a Chinese investment in electric vehicle and battery manufacturing, as distinct from assembly. Of six governing instruments, three are notified and none of them governs battery manufacturing; the PAVE subsidy pilot delivered 13% of its target; Pakistan has no commercial cell production; and the investable opportunities today lie in pack assembly, battery management, testing, recycling, charging and battery-grade processing rather than cell manufacturing.
+                    </p>
+
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-09-24">24 September 2026</time> &nbsp;|&nbsp; ARS-RR-2026-001
+                    </div>
+
+                    <a class="more" href="/research-reports/assembly-without-industry.html">
+                        View Research Report &rarr;
                     </a>
+
                 </div>
 
-                <div class="role">
-                    Advisory Board Member
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/data-briefs/medicine-deregulation.html">
+                    <img src="/assets/publications/medicine-deregulation-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Data Brief ARS-DB-2026-002: Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Data Brief
+                    </div>
+
+                    <h3>
+                        <a href="/data-briefs/medicine-deregulation.html">Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?</a>
+                    </h3>
+
+                    <p>
+                        An ARS Data Brief on who bore the cost of Pakistan&#x27;s February 2024 decision to end price control on medicines outside the National Essential Medicines List. Medicine prices rose by about 32%, higher prices explained 69% of the growth in pharmacy sales, the gross margin of listed manufacturers rose from 26% of sales in 2023 to 41% in 2025, and patients, who pay more than half of all health spending directly, bore the cost.
+                    </p>
+
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-09-23">23 September 2026</time> &nbsp;|&nbsp; ARS-DB-2026-002
+                    </div>
+
+                    <a class="more" href="/data-briefs/medicine-deregulation.html">
+                        View Data Brief &rarr;
+                    </a>
+
                 </div>
+
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/insights/institutional-cost.html">
+                    <img src="/assets/publications/the-institutional-cost-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Insight ARS-IN-2026-004: The Institutional Cost of Building a Technology Business">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Insight
+                    </div>
+
+                    <h3>
+                        <a href="/insights/institutional-cost.html">The Institutional Cost of Building a Technology Business</a>
+                    </h3>
+
+                    <p>
+                        What building a technology business reveals about Pakistan&#x27;s institutional fabric, and why the next round of reform must build the market rather than ease entry into it.
+                    </p>
+
+                    <div class="meta">
+                        Muneeb Maayr &nbsp;|&nbsp; <time datetime="2026-09-14">14 September 2026</time> &nbsp;|&nbsp; ARS-IN-2026-004
+                    </div>
+
+                    <a class="more" href="/insights/institutional-cost.html">
+                        View Insight &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/policy-briefs/pakistan-china-manufacturing.html">
+                    <img src="/assets/publications/Pakistan-as-Chinas-next-manufacturing-base-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Policy Brief ARS-PB-2026-002: Pakistan as China&#x27;s Next Manufacturing Base">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Policy Brief
+                    </div>
+
+                    <h3>
+                        <a href="/policy-briefs/pakistan-china-manufacturing.html">Pakistan as China’s Next Manufacturing Base</a>
+                    </h3>
+
+                    <p>
+                        Can Pakistan become a China+1 manufacturing base? Once energy, logistics and regulation are weighed, the case holds for import substitution, not exports.
+                    </p>
+
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-08-30">30 August 2026</time> &nbsp;|&nbsp; ARS-PB-2026-002
+                    </div>
+
+                    <a class="more" href="/policy-briefs/pakistan-china-manufacturing.html">
+                        View Brief &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/policy-briefs/pakistan-ev-transition.html">
+                    <img src="/assets/publications/Pakistans-EV-transition-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Policy Brief ARS-PB-2026-001: Beyond the Car Factory: Where Pakistan&#x27;s EV Opportunity Really Lies">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Policy Brief
+                    </div>
+
+                    <h3>
+                        <a href="/policy-briefs/pakistan-ev-transition.html">Beyond the Car Factory: Where Pakistan’s EV Opportunity Really Lies</a>
+                    </h3>
+
+                    <p>
+                        Pakistan&#x27;s real EV opportunity lies in batteries, components, charging, commercial mobility and two and three wheelers, not in car assembly alone.
+                    </p>
+
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-08-29">29 August 2026</time> &nbsp;|&nbsp; ARS-PB-2026-001
+                    </div>
+
+                    <a class="more" href="/policy-briefs/pakistan-ev-transition.html">
+                        View Brief &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/insights/cpec-sez-audit.html">
+                    <img src="/assets/publications/plug-and-play-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Insight ARS-IN-2026-002: Plug and Play, or Still Plugging In?">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Insight
+                    </div>
+
+                    <h3>
+                        <a href="/insights/cpec-sez-audit.html">Plug and Play, or Still Plugging In?</a>
+                    </h3>
+
+                    <p>
+                        How far Pakistan&#x27;s CPEC Special Economic Zones have actually come — their development, institutional framework, investment environment and strategic potential.
+                    </p>
+
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-08-27">27 August 2026</time> &nbsp;|&nbsp; ARS-IN-2026-002
+                    </div>
+
+                    <a class="more" href="/insights/cpec-sez-audit.html">
+                        View Insight &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+            <article class="pub-item">
+
+                <a class="pub-thumb" href="/insights/rmb-settlement.html">
+                    <img src="/assets/publications/Beyond-the-dollar-540.webp"
+                         width="540" height="763"
+                         loading="lazy"
+                         decoding="async"
+                         alt="Cover of ARS Insight ARS-IN-2026-001: Beyond the Dollar: Can Pakistan Trade More in Yuan?">
+                </a>
+
+                <div>
+
+                    <div class="series">
+                        ARS Insight
+                    </div>
+
+                    <h3>
+                        <a href="/insights/rmb-settlement.html">Beyond the Dollar: Can Pakistan Trade More in Yuan?</a>
+                    </h3>
+
+                    <p>
+                        The mechanics of RMB based settlement, and how far greater use of China&#x27;s currency could realistically support Pakistan&#x27;s trade and investment.
+                    </p>
+
+                    <div class="meta">
+                        Reza Khan &nbsp;|&nbsp; <time datetime="2026-08-27">27 August 2026</time> &nbsp;|&nbsp; ARS-IN-2026-001
+                    </div>
+
+                    <a class="more" href="/insights/rmb-settlement.html">
+                        View Insight &rarr;
+                    </a>
+
+                </div>
+
+            </article>
+
+            <div class="other-areas">
 
                 <h2>
-                    Dr. Engr. Sanaullah Aman
+                    Other research areas
                 </h2>
 
-
-                <div class="advisor-bio">
-
-                    <p>
-                        Dr. Engr. Sanaullah Aman is a dispute resolution professional,
-                        academic, and institutional leader with extensive expertise spanning
-                        law, management, engineering, and public sector governance.
-                    </p>
-
-                    <p>
-                        He brings extensive public sector experience from his tenure
-                        as <strong>Member (Engineering) at the Capital Development
-                        Authority (CDA)</strong>, where he gained first hand experience
-                        in public administration, institutional decision making,
-                        regulatory frameworks, infrastructure development, and
-                        complex dispute resolution environments.
-                    </p>
-
-                    <p>
-                        Dr. Aman currently serves as a <strong>Member of the Selection
-    Board of the Pakistan Engineering Council (PEC)</strong> and
-    the <strong>Association of Consulting Engineers of Pakistan
-    (ACEP)</strong>, contributing to professional governance,
-    institutional oversight, and the development of engineering
-    and consulting institutions. He is also a <strong>Professor of Management</strong>
-    and the author of the book
-    <em>Alternative Dispute Resolution in a Globalized World:
-    Law, Practice and Innovation</em>.
-                    </p>
-
-                </div>
+                <ul>
+                <li><a href="/research/economy-public-policy/">Economy &amp; Public Policy</a></li>
+                <li><a href="/research/governance-institutions/">Governance &amp; Institutions</a></li>
+                <li><a href="/research/society-human-development/">Society &amp; Human Development</a></li>
+                <li><a href="/research/cities-infrastructure-climate/">Cities, Infrastructure &amp; Climate</a></li>
+                <li><a href="/research/technology-digital-economy/">Technology &amp; Digital Economy</a></li>
+                </ul>
 
             </div>
 
@@ -1030,13 +1270,8 @@ header {
 
 </section>
 
-
-
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
 </main>
+
 
 <footer class="site-footer">
 
@@ -1073,7 +1308,7 @@ header {
                 <ul>
 
                     <li>
-                        <a href="../about.html">
+                        <a href="/about.html">
                             About Us
                         </a>
                     </li>
@@ -1116,31 +1351,31 @@ header {
                 <ul>
 
                     <li>
-                        <a href="../data-briefs/">
+                        <a href="/data-briefs/">
                             Data Briefs
                         </a>
                     </li>
 
                     <li>
-                        <a href="../insights/">
+                        <a href="/insights/">
                             ARS Insights
                         </a>
                     </li>
 
                     <li>
-                        <a href="../policy-briefs/">
+                        <a href="/policy-briefs/">
                             Policy Briefs
                         </a>
                     </li>
 
                     <li>
-                        <a href="../special-reports/">
+                        <a href="/special-reports/">
                             Special Reports
                         </a>
                     </li>
 
                     <li>
-                        <a href="../research-reports/">
+                        <a href="/research-reports/">
                             Research Reports
                         </a>
                     </li>
@@ -1209,9 +1444,9 @@ header {
 
             <span>
 
-                <a class="footer-legal" href="../privacy/">Privacy Policy</a>
+                <a class="footer-legal" href="/privacy/">Privacy Policy</a>
                 &nbsp; | &nbsp;
-                <a class="footer-legal" href="../terms/">Terms of Use</a>
+                <a class="footer-legal" href="/terms/">Terms of Use</a>
 
             </span>
 
