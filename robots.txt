@@ -1,0 +1,15 @@
+# robots.txt for arspakistan.pk
+User-agent: *
+Allow: /
+
+# Keep personal portrait photos out of search and image results
+# (paths are case-sensitive on GitHub Pages)
+Disallow: /profile01.jpg
+Disallow: /profile02.jpg
+Disallow: /Profile03.jpg
+Disallow: /muhammad-hafizullah.jpg
+
+# Service verification file, not content
+Disallow: /zohverify/
+
+Sitemap: https://arspakistan.pk/sitemap.xml

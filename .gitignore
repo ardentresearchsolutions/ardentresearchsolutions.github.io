@@ -1,0 +1,5 @@
+# Working files stay on the computer and are never published
+*[Oo]utputs/
+_working/
+Thumbs.db
+desktop.ini

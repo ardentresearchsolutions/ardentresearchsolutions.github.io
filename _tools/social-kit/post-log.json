@@ -1,0 +1,129 @@
+{
+ "last_x_post": "2026-10-01",
+ "posts": [
+  {
+   "date": "2026-09-25",
+   "img": "2026-09-25-medicine-32pc.jpg",
+   "publication": "Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?",
+   "category": "ARS Data Brief",
+   "x": true,
+   "fact": "ARS Data Brief graphic: medicine prices in Pakistan rose 32% after deregulation in February 2024."
+  },
+  {
+   "date": "2026-09-26",
+   "img": "2026-09-26-less-on-the-plate.jpg",
+   "publication": "Twice the Rupees, Less on the Plate",
+   "category": "ARS Data Brief",
+   "x": true,
+   "fact": "ARS Data Brief chart: per-person monthly consumption in Pakistan fell between HIES 2018-19 and 2024-25 — pulses -26%, rice -19%, milk -10%, eggs -7%, wheat flour -6%."
+  },
+  {
+   "date": "2026-09-27",
+   "img": "2026-09-27-arbitration-quote.jpg",
+   "publication": "The Arbitration Gap: What Pakistan Can Learn from Astana",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight quote card: Legislation without institutional capacity will have limited practical effect."
+  },
+  {
+   "date": "2026-09-28",
+   "img": "2026-09-28-ev-two-wheels.jpg",
+   "publication": "Beyond the Car Factory",
+   "category": "ARS Policy Brief",
+   "x": true,
+   "fact": "ARS Policy Brief graphic: Pakistan's EV mass market is two and three wheels, not cars — 160,000 electric motorcycles vs 12,800 electric four-wheelers."
+  },
+  {
+   "date": "2026-09-29",
+   "img": "2026-09-29-cpec-sez-27.jpg",
+   "publication": "Plug and Play, or Still Plugging In?",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight graphic: only 27 sites can be verified as producing across Pakistan's four priority CPEC Special Economic Zones."
+  },
+  {
+   "date": "2026-09-30",
+   "img": "2026-09-30-energy-constraint.jpg",
+   "publication": "Pakistan as China’s Next Manufacturing Base",
+   "category": "ARS Policy Brief",
+   "x": true,
+   "fact": "ARS Policy Brief chart: industrial electricity costs 13.5-15.7 US cents per kWh in Pakistan against 7.7 cents in China."
+  },
+  {
+   "date": "2026-10-01",
+   "img": "2026-10-01-coverage-vs-use.jpg",
+   "publication": "The Institutional Cost of Building a Technology Business",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight chart: 81% of Pakistanis live under mobile broadband coverage and 68% own a smartphone, but only 29% used the mobile internet in the past year."
+  }
+ ],
+ "author_card_campaign": {
+  "note": "ARS Insight author cards: verbatim quote + one key number + author's round photo. Facebook, Instagram and Google Business Profile at 12:00 PKT every third day; Reza's LinkedIn Fridays 11:00 PKT. X not used (free quota taken by daily cards). Approved by Reza 2026-09-29, including his own photo on his Insights. Extended 2026-09-29 to the Special Report, Research Report and both Policy Briefs (Instagram captions give the section address because the bio link points to /insights/).",
+  "posts": [
+   {
+    "img": "author-in005-rubina-fareed.jpg",
+    "url": "https://arspakistan.pk/insights/maternal-health-divide.html",
+    "quote": "Many of the mothers most at risk are girls who were married before 18, and the state often meets them for the first time in a labour ward.",
+    "fb_ig_gmb": "2026-10-03",
+    "linkedin": "2026-10-09"
+   },
+   {
+    "img": "author-in004-muneeb-maayr.jpg",
+    "url": "https://arspakistan.pk/insights/institutional-cost.html",
+    "quote": "Where one competitor pays and most do not, compliance becomes a competitive disadvantage rather than a baseline.",
+    "fb_ig_gmb": "2026-10-06",
+    "linkedin": "2026-10-16"
+   },
+   {
+    "img": "author-in003-aman-khan.jpg",
+    "url": "https://arspakistan.pk/insights/astana-arbitration.html",
+    "quote": "The lesson is not that Pakistan should reproduce the AIFC model in full, but that institutional credibility depends on more than legislation alone.",
+    "fb_ig_gmb": "2026-10-09",
+    "linkedin": "2026-10-23"
+   },
+   {
+    "img": "author-in002-reza-khan.jpg",
+    "url": "https://arspakistan.pk/insights/cpec-sez-audit.html",
+    "quote": "The public record thins out at the production stage.",
+    "fb_ig_gmb": "2026-10-12",
+    "linkedin": "2026-10-30"
+   },
+   {
+    "img": "author-in001-reza-khan.jpg",
+    "url": "https://arspakistan.pk/insights/rmb-settlement.html",
+    "quote": "Fewer conversions is not, on its own, proof of a lower total cost.",
+    "fb_ig_gmb": "2026-10-15",
+    "linkedin": "2026-11-06"
+   },
+   {
+    "img": "author-sr001-khan-qureshi.jpg",
+    "url": "https://arspakistan.pk/special-reports/idle-currents.html",
+    "quote": "The legal problem is that a discretion cannot be underwritten.",
+    "fb_ig_gmb": "2026-10-18",
+    "linkedin": "2026-11-13"
+   },
+   {
+    "img": "author-rr001-reza-khan.jpg",
+    "url": "https://arspakistan.pk/research-reports/assembly-without-industry.html",
+    "quote": "The PAVE record establishes that Pakistan’s binding constraint in this sector is not policy ambition but administrative execution.",
+    "fb_ig_gmb": "2026-10-21",
+    "linkedin": "2026-11-20"
+   },
+   {
+    "img": "author-pb002-reza-khan.jpg",
+    "url": "https://arspakistan.pk/policy-briefs/pakistan-china-manufacturing.html",
+    "quote": "Pakistan is a market to serve rather than a platform to export from.",
+    "fb_ig_gmb": "2026-10-24",
+    "linkedin": "2026-11-27"
+   },
+   {
+    "img": "author-pb001-reza-khan.jpg",
+    "url": "https://arspakistan.pk/policy-briefs/pakistan-ev-transition.html",
+    "quote": "Battery-pack assembly is the strongest single opportunity identified in this report.",
+    "fb_ig_gmb": "2026-10-27",
+    "linkedin": "2026-12-04"
+   }
+  ]
+ }
+}

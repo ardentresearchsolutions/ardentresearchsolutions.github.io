@@ -1,0 +1,23 @@
+@font-face{font-family:SS;src:url(fonts/source-serif-4-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:SS;src:url(fonts/source-serif-4-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:SS;src:url(fonts/source-serif-4-latin-700-normal.woff2);font-weight:700}
+@font-face{font-family:SS;src:url(fonts/source-serif-4-latin-400-italic.woff2);font-style:italic;font-weight:400}
+@font-face{font-family:SN;src:url(fonts/source-sans-3-latin-400-normal.woff2);font-weight:400}
+@font-face{font-family:SN;src:url(fonts/source-sans-3-latin-600-normal.woff2);font-weight:600}
+@font-face{font-family:SN;src:url(fonts/source-sans-3-latin-700-normal.woff2);font-weight:700}
+:root{--navy:#092b52;--deep:#061a33;--cyan:#22b4e6;--label:#8bc7ff;--text:#e9f0f8;--muted:#9fb3c9}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1350px;overflow:hidden;font-family:SN;color:var(--text);
+ background:radial-gradient(120% 90% at 70% 10%,#123e6e 0%,var(--navy) 40%,var(--deep) 100%);position:relative}
+.frame{position:absolute;inset:0;padding:80px 84px 72px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:flex-start}
+.brand{display:flex;align-items:center;gap:22px}
+.brand .ars{font-family:SS;font-weight:600;font-size:64px;letter-spacing:1px;line-height:1}
+.brand .div{width:2px;height:62px;background:rgba(255,255,255,.55)}
+.brand .name{font-weight:600;font-size:18px;letter-spacing:3.5px;line-height:1.35;color:#dfe8f2}
+.cat{font-weight:700;font-size:20px;letter-spacing:3px;color:#fff;padding-bottom:10px;border-bottom:2px solid #fff;margin-top:14px}
+.code{margin-top:44px;font-weight:600;font-size:20px;letter-spacing:3px;color:var(--label)}
+.bar{width:110px;height:6px;background:var(--cyan);border-radius:1px}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(255,255,255,.18);padding-top:26px;font-size:21px;color:var(--muted);letter-spacing:.3px}
+.foot b{color:#fff;font-weight:600;letter-spacing:1px}
+.serif{font-family:SS}
