@@ -1,5 +1,5 @@
 {
- "last_x_post": "2026-10-01",
+ "last_x_post": "2026-10-13",
  "posts": [
   {
    "date": "2026-09-25",
@@ -56,10 +56,87 @@
    "category": "ARS Insight",
    "x": true,
    "fact": "ARS Insight chart: 81% of Pakistanis live under mobile broadband coverage and 68% own a smartphone, but only 29% used the mobile internet in the past year."
+  },
+  {
+   "date": "2026-10-07",
+   "img": "2026-10-07-assembly-without-industry.jpg",
+   "publication": "Assembly Without Industry",
+   "category": "ARS Research Report",
+   "x": true,
+   "fact": "ARS Research Report promo: Pakistan's battery activity is assembly, not manufacturing. 4.6 GWh of lithium-ion storage imported in 2025, up 220%; 3 of 6 governing instruments notified; 13% delivery against target in the PAVE pilot."
+  },
+  {
+   "date": "2026-10-08",
+   "img": "2026-10-08-maternal-deaths-by-province.jpg",
+   "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
+   "category": "ARS Insight",
+   "x": false,
+   "linkedin": "2026-10-14",
+   "fact": "ARS Insight chart: maternal deaths per 100,000 live births in 2019 — Balochistan 298, Sindh 224, Khyber Pakhtunkhwa 165, Punjab 157."
+  },
+  {
+   "date": "2026-10-09",
+   "img": "2026-10-09-bankability-24-of-75.jpg",
+   "publication": "Idle Currents",
+   "category": "ARS Special Report",
+   "x": false,
+   "linkedin": "2026-10-08",
+   "fact": "ARS Special Report graphic: Pakistan scores 24 out of 75 on the questions a hyperscale data centre's lenders ask; the report's reform package would take it to 64."
+  },
+  {
+   "date": "2026-10-10",
+   "img": "2026-10-10-child-marriage-follows-poverty.jpg",
+   "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
+   "category": "ARS Insight",
+   "x": true,
+   "fact": "ARS Insight chart: share of women aged 20 to 24 who had married before 18 in 2018 — 34% in the poorest families, 18% of all women, 7% in the richest families."
+  },
+  {
+   "date": "2026-10-11",
+   "img": "2026-10-11-prices-where-competition-weakest.jpg",
+   "publication": "Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?",
+   "category": "ARS Data Brief",
+   "x": false,
+   "linkedin": "2026-10-15",
+   "fact": "ARS Data Brief chart: price rises after medicine deregulation — original brands of diabetes tablets 47%, cheapest generics 15%, insulins freed from price control 37%, insulins still controlled 22%."
+  },
+  {
+   "date": "2026-10-12",
+   "img": "2026-10-12-ev-sales-33-to-53.jpg",
+   "publication": "Assembly Without Industry",
+   "category": "ARS Research Report",
+   "x": false,
+   "linkedin": "2026-10-12",
+   "fact": "ARS Research Report graphic: the widely reported 61% jump in electric vehicle sales was a move from 33 to 53 units, in a month when about 15,500 conventional vehicles were sold."
+  },
+  {
+   "date": "2026-10-13",
+   "img": "2026-10-13-poorest-lost-most.jpg",
+   "publication": "Twice the Rupees, Less on the Plate",
+   "category": "ARS Data Brief",
+   "x": true,
+   "linkedin": "2026-10-13",
+   "fact": "ARS Data Brief chart: fall in real household income between HIES 2018-19 and 2024-25 — about 20% for the poorest fifth of the population, about 3% for the richest fifth."
+  },
+  {
+   "date": "2026-10-14",
+   "img": "2026-10-14-institutional-honesty-quote.jpg",
+   "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
+   "category": "ARS Insight",
+   "x": false,
+   "fact": "ARS Insight quote card, Dr. Rubina Fareed: Closing the gap will cost less money than most people assume, but it will require more institutional honesty than we have shown so far."
+  },
+  {
+   "date": "2026-10-15",
+   "img": "2026-10-15-sme-credit-7-8pc.jpg",
+   "publication": "The Institutional Cost of Building a Technology Business",
+   "category": "ARS Insight",
+   "x": false,
+   "fact": "ARS Insight graphic: financing to small and medium enterprises was 7.8% of domestic private sector financing in June 2026; banks hold around 62% of their assets in investments."
   }
  ],
  "author_card_campaign": {
-  "note": "ARS Insight author cards: verbatim quote + one key number + author's round photo. Facebook, Instagram and Google Business Profile at 12:00 PKT every third day; Reza's LinkedIn Fridays 11:00 PKT. X not used (free quota taken by daily cards). Approved by Reza 2026-09-29, including his own photo on his Insights. Extended 2026-09-29 to the Special Report, Research Report and both Policy Briefs (Instagram captions give the section address because the bio link points to /insights/).",
+  "note": "ARS Insight author cards: verbatim quote + one key number + author's round photo. Facebook, Instagram and Google Business Profile at 12:00 PKT every third day; Reza's LinkedIn Fridays 11:00 PKT. X not used (free quota taken by daily cards). Approved by Reza 2026-09-29, including his own photo on his Insights. Extended 2026-09-29 to the Special Report, Research Report and both Policy Briefs (Instagram captions give the section address because the bio link points to /insights/). 2026-10-07: one closing question added to each of the nine LinkedIn author cards (9 Oct to 4 Dec).",
   "posts": [
    {
     "img": "author-in005-rubina-fareed.jpg",
