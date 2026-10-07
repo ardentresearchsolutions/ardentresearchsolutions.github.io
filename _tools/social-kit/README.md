@@ -44,6 +44,9 @@ Everything needed to produce a week of ARS social posts from arspakistan.pk publ
 - A verbatim quote from the publication's PDF, one supporting number, the author's round photo, name and role. Template: `templates/author-card-in005.html`; images are `social/author-<code>-<name>.jpg`.
 - Scheduled on 29 Sep 2026: Facebook, Instagram and Google Business Profile at 12:00 every third day from 3 Oct to 27 Oct; LinkedIn on Fridays at 11:00 from 9 Oct to 4 Dec (nine cards), each ending with one closing question. Check Metricool before adding more.
 
+## Extra chart cards (noon)
+Approved 7 Oct 2026. Ten chart cards (`social/chart-*.jpg`) go to Facebook, Instagram and Google Business Profile at 12:00 on days with no author card: 8, 10, 11, 13, 14, 16, 17, 19, 20 and 22 Oct. Four of them also go to LinkedIn at 11:00 on 10, 11, 17 and 18 Oct. They are listed in `post-log.json` with a `slot` field. When choosing the 6:00 PM daily card, do not use the same publication as that day's noon card, and do not reuse a noon card's finding. Check Metricool before adding more.
+
 ## Approval
 Nothing is scheduled or published until Reza replies "approved" to the week shown in the planner. He usually reviews on his phone.
 

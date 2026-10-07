@@ -75,6 +75,15 @@
    "fact": "ARS Insight chart: maternal deaths per 100,000 live births in 2019 — Balochistan 298, Sindh 224, Khyber Pakhtunkhwa 165, Punjab 157."
   },
   {
+   "date": "2026-10-08",
+   "img": "chart-incomes-vs-prices.jpg",
+   "publication": "Twice the Rupees, Less on the Plate",
+   "category": "ARS Data Brief",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Data Brief chart: between HIES 2018-19 and 2024-25 average monthly household income in Pakistan rose 98% while consumer prices rose 125%."
+  },
+  {
    "date": "2026-10-09",
    "img": "2026-10-09-bankability-24-of-75.jpg",
    "publication": "Idle Currents",
@@ -92,6 +101,15 @@
    "fact": "ARS Insight chart: share of women aged 20 to 24 who had married before 18 in 2018 — 34% in the poorest families, 18% of all women, 7% in the richest families."
   },
   {
+   "date": "2026-10-10",
+   "img": "chart-china-plus-one-sectors.jpg",
+   "publication": "Pakistan as China’s Next Manufacturing Base",
+   "category": "ARS Policy Brief",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Policy Brief chart: sector scores out of 100 — EV components and battery packs 76, solar modules and inverters 74, two and three wheeler components 72, export oriented textiles 47."
+  },
+  {
    "date": "2026-10-11",
    "img": "2026-10-11-prices-where-competition-weakest.jpg",
    "publication": "Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?",
@@ -99,6 +117,15 @@
    "x": false,
    "linkedin": "2026-10-15",
    "fact": "ARS Data Brief chart: price rises after medicine deregulation — original brands of diabetes tablets 47%, cheapest generics 15%, insulins freed from price control 37%, insulins still controlled 22%."
+  },
+  {
+   "date": "2026-10-11",
+   "img": "chart-pave-applications.jpg",
+   "publication": "Beyond the Car Factory",
+   "category": "ARS Policy Brief",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Policy Brief chart: Phase 1 of the federal vehicle electrification programme drew about 269,149 applications for 41,000 places and delivered about 5,409 vehicles."
   },
   {
    "date": "2026-10-12",
@@ -119,6 +146,15 @@
    "fact": "ARS Data Brief chart: fall in real household income between HIES 2018-19 and 2024-25 — about 20% for the poorest fifth of the population, about 3% for the richest fifth."
   },
   {
+   "date": "2026-10-13",
+   "img": "chart-hydropower-80-12.jpg",
+   "publication": "Idle Currents",
+   "category": "ARS Special Report",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Special Report chart: WAPDA's six largest hydropower stations ran at 80% of nameplate capacity in August and 12% in January."
+  },
+  {
    "date": "2026-10-14",
    "img": "2026-10-14-institutional-honesty-quote.jpg",
    "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
@@ -127,12 +163,66 @@
    "fact": "ARS Insight quote card, Dr. Rubina Fareed: Closing the gap will cost less money than most people assume, but it will require more institutional honesty than we have shown so far."
   },
   {
+   "date": "2026-10-14",
+   "img": "chart-drug-margins-26-to-41.jpg",
+   "publication": "Who Paid for Pakistan’s Medicine Deregulation?",
+   "category": "ARS Data Brief",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Data Brief chart: the gross margin of listed drug companies in Pakistan rose from 26% of sales in 2023 to 41% in 2025."
+  },
+  {
    "date": "2026-10-15",
    "img": "2026-10-15-sme-credit-7-8pc.jpg",
    "publication": "The Institutional Cost of Building a Technology Business",
    "category": "ARS Insight",
    "x": false,
    "fact": "ARS Insight graphic: financing to small and medium enterprises was 7.8% of domestic private sector financing in June 2026; banks hold around 62% of their assets in investments."
+  },
+  {
+   "date": "2026-10-16",
+   "img": "chart-adolescent-mothers-194-99.jpg",
+   "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
+   "category": "ARS Insight",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Insight chart: 194 maternal deaths per 100,000 live births among mothers aged 15 to 19, against 99 among those aged 20 to 24, in the 2019 survey."
+  },
+  {
+   "date": "2026-10-17",
+   "img": "chart-rmb-2-to-18.jpg",
+   "publication": "Beyond the Dollar",
+   "category": "ARS Insight",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Insight chart: RMB denominated imports rose from about 2% of Pakistan's imports from China in FY2018 to around 18% in FY2022."
+  },
+  {
+   "date": "2026-10-19",
+   "img": "chart-transfers-matter-more.jpg",
+   "publication": "Twice the Rupees, Less on the Plate",
+   "category": "ARS Data Brief",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Data Brief chart: foreign remittances rose from 4.96% to 7.77% of household income and gifts and assistance from 2.12% to 4.57% between HIES 2018-19 and 2024-25."
+  },
+  {
+   "date": "2026-10-20",
+   "img": "chart-allama-iqbal-27-107.jpg",
+   "publication": "Plug and Play, or Still Plugging In?",
+   "category": "ARS Insight",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Insight chart: the 2026 layout of Allama Iqbal Industrial City shows 27 plots in production and 107 under construction."
+  },
+  {
+   "date": "2026-10-22",
+   "img": "chart-birth-registration.jpg",
+   "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
+   "category": "ARS Insight",
+   "x": false,
+   "slot": "12:00 extra chart card (Facebook, Instagram, Google Business Profile)",
+   "fact": "ARS Insight chart: share of children under five with registered births in 2017-18 — Islamabad 82%, Pakistan 42%, Khyber Pakhtunkhwa 19%, poorest fifth of families 9%."
   }
  ],
  "author_card_campaign": {
