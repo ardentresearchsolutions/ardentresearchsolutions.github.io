@@ -47,6 +47,14 @@ Everything needed to produce a week of ARS social posts from arspakistan.pk publ
 ## Extra chart cards (noon)
 Approved 7 Oct 2026. Ten chart cards (`social/chart-*.jpg`) go to Facebook, Instagram and Google Business Profile at 12:00 on days with no author card: 8, 10, 11, 13, 14, 16, 17, 19, 20 and 22 Oct. Four of them also go to LinkedIn at 11:00 on 10, 11, 17 and 18 Oct. They are listed in `post-log.json` with a `slot` field. When choosing the 6:00 PM daily card, do not use the same publication as that day's noon card, and do not reuse a noon card's finding. Check Metricool before adding more.
 
+## Free-plan posting (from 16 Oct 2026)
+- Metricool's free plan publishes only **20 posts per calendar month**, counting each network separately. October's 20 were used by 8 Oct, so every later Facebook, Instagram, LinkedIn and Google post failed.
+- The whole calendar from 8 Oct 6 PM onwards moved **9 days later** in its original order (8 Oct became 17 Oct, and so on). The 25–31 Oct cards are the week first prepared for 16–22 Oct. The next new week starts **Sun 1 Nov**.
+- Until the account changes plan: Facebook and Instagram are scheduled in Meta Business Suite (free, unlimited); LinkedIn with LinkedIn's own scheduler; Google Business Profile is posted on the day. The planner page lists every post with its caption and image.
+- Metricool's free 20 per month go to the remaining author cards: 11 in November (LinkedIn 1, 8, 15, 22, 29 Nov; Facebook, Instagram and Google on 2 and 5 Nov) and 2 in December (LinkedIn 6 and 13 Dec). Do not add more than 9 further Metricool posts in November.
+- X is unaffected (Typefully). It posted on 16, 19 and 22 Oct; next X day 25 Oct.
+- When choosing findings, also check the supporting numbers on author cards, not only the post log.
+
 ## Approval
 Nothing is scheduled or published until Reza replies "approved" to the week shown in the planner. He usually reviews on his phone.
 
