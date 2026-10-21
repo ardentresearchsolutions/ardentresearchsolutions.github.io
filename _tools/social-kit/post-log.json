@@ -1,5 +1,5 @@
 {
- "last_x_post": "2026-10-22",
+ "last_x_post": "2026-10-31",
  "posts": [
   {
    "date": "2026-09-25",
@@ -255,8 +255,9 @@
    "img": "2026-10-26-nev-target-82pc.jpg",
    "publication": "Beyond the Car Factory: Where Pakistan’s EV Opportunity Really Lies",
    "category": "ARS Policy Brief",
-   "x": false,
-   "fact": "ARS Policy Brief graphic: reaching 30% of new vehicle sales under the NEV Policy 2025-30 implies roughly 82% compound annual growth in the new energy vehicle fleet."
+   "x": true,
+   "fact": "ARS Policy Brief graphic: reaching 30% of new vehicle sales under the NEV Policy 2025-30 implies roughly 82% compound annual growth in the new energy vehicle fleet.",
+   "x_date": "2026-10-25"
   },
   {
    "date": "2026-10-27",
@@ -282,20 +283,22 @@
    "img": "2026-10-29-budgets-squeezed.jpg",
    "publication": "Twice the Rupees, Less on the Plate",
    "category": "ARS Data Brief",
-   "x": false,
+   "x": true,
    "linkedin": "2026-10-29",
    "linkedin_img": "2026-10-26-nev-target-82pc.jpg",
-   "fact": "ARS Data Brief chart: between HIES 2018-19 and 2024-25 education fell from 3.98% to 2.48% of household spending, while housing, water, electricity and fuel rose from 23.76% to 25.72%."
+   "fact": "ARS Data Brief chart: between HIES 2018-19 and 2024-25 education fell from 3.98% to 2.48% of household spending, while housing, water, electricity and fuel rose from 23.76% to 25.72%.",
+   "x_date": "2026-10-28"
   },
   {
    "date": "2026-10-30",
    "img": "2026-10-30-contact-not-continuity.jpg",
    "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
    "category": "ARS Insight",
-   "x": false,
+   "x": true,
    "linkedin": "2026-10-30",
    "linkedin_img": "2026-10-28-capacity-vs-load.jpg",
-   "fact": "ARS Insight chart: in 2017-18, 86% of women saw a skilled provider at least once during pregnancy but only 51% had four or more visits; a skilled attendant was present at 87% of births in Islamabad and 38% in Balochistan."
+   "fact": "ARS Insight chart: in 2017-18, 86% of women saw a skilled provider at least once during pregnancy but only 51% had four or more visits; a skilled attendant was present at 87% of births in Islamabad and 38% in Balochistan.",
+   "x_date": "2026-10-31"
   },
   {
    "date": "2026-10-31",
