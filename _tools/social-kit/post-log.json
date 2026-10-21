@@ -1,5 +1,5 @@
 {
- "last_x_post": "2026-10-31",
+ "last_x_post": "2026-11-29",
  "posts": [
   {
    "date": "2026-09-25",
@@ -310,10 +310,100 @@
    "linkedin": "2026-10-31",
    "linkedin_img": "2026-10-31-ev-running-cost.jpg",
    "fact": "ARS Research Report chart: at current petrol prices an electric car costs roughly 38% to 83% less to run than a petrol equivalent on public chargers, and about 92% less on rooftop solar."
+  },
+  {
+   "date": "2026-11-08",
+   "img": "2026-11-08-maternal-deaths-trend.jpg",
+   "publication": "Child Marriage and Pakistan’s Maternal Health Divide",
+   "category": "ARS Insight",
+   "x": true,
+   "x_date": "2026-11-08",
+   "fact": "ARS Insight chart: the maternal mortality ratio fell by 33% between 2007 and 2019, from 276 to 186 deaths per 100,000 live births; a modelled estimate puts it at 155 in 2023, above the South Asian average of 120.",
+   "gbp": true
+  },
+  {
+   "date": "2026-11-11",
+   "img": "2026-11-11-sales-grew-on-price.jpg",
+   "publication": "Pharmacoeconomics: Who Paid for Pakistan’s Medicine Deregulation?",
+   "category": "ARS Data Brief",
+   "x": true,
+   "x_date": "2026-11-11",
+   "fact": "ARS Data Brief graphic: higher prices explained 69% of the growth in pharmacy sales in the year to March 2025, while the number of packs sold rose by only 3.6%.",
+   "gbp": true,
+   "linkedin_planned": "2026-11-11",
+   "linkedin_img": "2026-11-11-sales-grew-on-price.jpg"
+  },
+  {
+   "date": "2026-11-14",
+   "img": "2026-11-14-exports-vs-imports.jpg",
+   "publication": "Pakistan as China’s Next Manufacturing Base",
+   "category": "ARS Policy Brief",
+   "x": true,
+   "x_date": "2026-11-14",
+   "fact": "ARS Policy Brief chart: merchandise exports fell 5.9% to USD 30.13 billion in FY2026 while imports rose to USD 69.6 billion, the widest trade deficit in four years.",
+   "gbp": true
+  },
+  {
+   "date": "2026-11-17",
+   "img": "2026-11-17-imported-cotton.jpg",
+   "publication": "The Institutional Cost of Building a Technology Business",
+   "category": "ARS Insight",
+   "x": true,
+   "x_date": "2026-11-17",
+   "fact": "ARS Insight chart: Pakistan imports staples it could plausibly produce — USD 3.79 billion of palm oil in FY2026 and, on USDA forecasts, 5.6 million of the 10.6 million bales of cotton its mills will use in 2025/26.",
+   "gbp": true,
+   "linkedin_planned": "2026-11-17",
+   "linkedin_img": "2026-11-17-imported-cotton.jpg"
+  },
+  {
+   "date": "2026-11-20",
+   "img": "2026-11-20-income-gap.jpg",
+   "publication": "Twice the Rupees, Less on the Plate",
+   "category": "ARS Data Brief",
+   "x": true,
+   "x_date": "2026-11-20",
+   "fact": "ARS Data Brief chart: the income gap between the richest and poorest fifths widened from 2.74 to 3.33 times between HIES 2018-19 and 2024-25; the richest fifth was the only group whose real consumption rose.",
+   "gbp": false,
+   "linkedin_planned": "2026-11-20",
+   "linkedin_img": "2026-11-20-income-gap.jpg"
+  },
+  {
+   "date": "2026-11-23",
+   "img": "2026-11-23-wheeling-charges.jpg",
+   "publication": "Idle Currents",
+   "category": "ARS Special Report",
+   "x": true,
+   "x_date": "2026-11-23",
+   "fact": "ARS Special Report chart: wheeling charges have moved administratively from above Rs 22 to below Rs 9 per unit; Section 22 of the NEPRA Act says the Authority “may permit” sales to bulk power consumers.",
+   "slot": "X only (no Metricool post)",
+   "linkedin_planned": "2026-11-23",
+   "linkedin_img": "2026-11-26-gharo-assembly.jpg"
+  },
+  {
+   "date": "2026-11-26",
+   "img": "2026-11-26-gharo-assembly.jpg",
+   "publication": "Assembly Without Industry",
+   "category": "ARS Research Report",
+   "x": true,
+   "x_date": "2026-11-26",
+   "fact": "ARS Research Report graphic: the largest financially closed project is a USD 150 million knocked-down assembly plant at Gharo, with BYD licensing technology rather than taking equity; on batteries, a memorandum with a CATL-backed company, not a commitment to produce cells.",
+   "slot": "X only (no Metricool post)",
+   "linkedin_planned": "2026-11-26",
+   "linkedin_img": "2026-11-23-wheeling-charges.jpg"
+  },
+  {
+   "date": "2026-11-29",
+   "img": "2026-11-29-swap-line.jpg",
+   "publication": "Beyond the Dollar: Can Pakistan Trade More in Yuan?",
+   "category": "ARS Insight",
+   "x": true,
+   "x_date": "2026-11-29",
+   "fact": "ARS Insight graphic: the CNY 30 billion swap between the two central banks is a sovereign liquidity backstop, not a company facility.",
+   "slot": "X only (no Metricool post)"
   }
  ],
  "author_card_campaign": {
-  "note": "ARS Insight author cards: verbatim quote + one key number + author's round photo. Facebook, Instagram and Google Business Profile at 12:00 PKT every third day; Reza's LinkedIn Fridays 11:00 PKT. X not used (free quota taken by daily cards). Approved by Reza 2026-09-29, including his own photo on his Insights. Extended 2026-09-29 to the Special Report, Research Report and both Policy Briefs (Instagram captions give the section address because the bio link points to /insights/). 2026-10-07: one closing question added to each of the nine LinkedIn author cards (9 Oct to 4 Dec). 2026-10-16: Metricool free-plan limit reached on 8 Oct; every unpublished post moved 9 days later. Remaining LinkedIn author cards now 1, 8, 15, 22, 29 Nov and 6, 13 Dec; the China and EV author cards for Facebook, Instagram and Google now 2 and 5 Nov.",
+  "note": "ARS Insight author cards: verbatim quote + one key number + author's round photo. Facebook, Instagram and Google Business Profile at 12:00 PKT every third day; Reza's LinkedIn Fridays 11:00 PKT. X not used (free quota taken by daily cards). Approved by Reza 2026-09-29, including his own photo on his Insights. Extended 2026-09-29 to the Special Report, Research Report and both Policy Briefs (Instagram captions give the section address because the bio link points to /insights/). 2026-10-07: one closing question added to each of the nine LinkedIn author cards (9 Oct to 4 Dec). 2026-10-16: Metricool free-plan limit reached on 8 Oct; every unpublished post moved 9 days later. Remaining LinkedIn author cards now 1, 8, 15, 22, 29 Nov and 6, 13 Dec; the China and EV author cards for Facebook, Instagram and Google now 2 and 5 Nov. 2026-10-21: X posts for the China and EV author cards scheduled on 2 and 5 Nov at 18:00.",
   "posts": [
    {
     "img": "author-in005-rubina-fareed.jpg",
